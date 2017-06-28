@@ -24,10 +24,10 @@ Using `addnode` is the recommended way of connecting and can be made by a simple
 You can have multiple addnode entries up to a maximum of 8 connections (or the number specified via maxoutconnections parameter), so you
 might have a config file looking as follows:
 
-	addnode=10.233.34.33:8333
+	addnode=10.233.34.33:7993
 	addnode=11.222.34.55:10500
 	addnode=45.33.223.34
-	addnode=45.33.233.45:8333
+	addnode=45.33.233.45:7993
 
 When you use `addnode` your peer upon receiving a new block announcement by an INV message will begin a 10 second timer.  If an INV
 message is not received within that 10 seconds from an XTHIN capable node then a request for a full block will be sent out. If it

@@ -22,7 +22,7 @@ BOOST_AUTO_TEST_CASE(addrman_simple)
     // Set addrman addr placement to be deterministic.
     addrman.MakeDeterministic();
 
-    CNetAddr source = CNetAddr("252.2.2.2:8333");
+    CNetAddr source = CNetAddr("252.2.2.2:7993");
 
     // Test 1: Does Addrman respond correctly when empty.
     BOOST_CHECK(addrman.size() == 0);
@@ -30,22 +30,22 @@ BOOST_AUTO_TEST_CASE(addrman_simple)
     BOOST_CHECK(addr_null.ToString() == "[::]:0");
 
     // Test 2: Does Addrman::Add work as expected.
-    CService addr1 = CService("250.1.1.1:8333");
+    CService addr1 = CService("250.1.1.1:7993");
     addrman.Add(CAddress(addr1), source);
     BOOST_CHECK(addrman.size() == 1);
     CAddrInfo addr_ret1 = addrman.Select();
-    BOOST_CHECK(addr_ret1.ToString() == "250.1.1.1:8333");
+    BOOST_CHECK(addr_ret1.ToString() == "250.1.1.1:7993");
 
     // Test 3: Does IP address deduplication work correctly. 
     //  Expected dup IP should not be added.
-    CService addr1_dup = CService("250.1.1.1:8333");
+    CService addr1_dup = CService("250.1.1.1:7993");
     addrman.Add(CAddress(addr1_dup), source);
     BOOST_CHECK(addrman.size() == 1);
 
 
     // Test 5: New table has one addr and we add a diff addr we should
     //  have two addrs.
-    CService addr2 = CService("250.1.1.2:8333");
+    CService addr2 = CService("250.1.1.2:7993");
     addrman.Add(CAddress(addr2), source);
     BOOST_CHECK(addrman.size() == 2);
 
@@ -63,12 +63,12 @@ BOOST_AUTO_TEST_CASE(addrman_ports)
     // Set addrman addr placement to be deterministic.
     addrman.MakeDeterministic();
 
-    CNetAddr source = CNetAddr("252.2.2.2:8333");
+    CNetAddr source = CNetAddr("252.2.2.2:7993");
 
     BOOST_CHECK(addrman.size() == 0);
 
     // Test 7; Addr with same IP but diff port does not replace existing addr.
-    CService addr1 = CService("250.1.1.1:8333");
+    CService addr1 = CService("250.1.1.1:7993");
     addrman.Add(CAddress(addr1), source);
     BOOST_CHECK(addrman.size() == 1);
 
@@ -76,7 +76,7 @@ BOOST_AUTO_TEST_CASE(addrman_ports)
     addrman.Add(CAddress(addr1_port), source);
     BOOST_CHECK(addrman.size() == 1);
     CAddrInfo addr_ret2 = addrman.Select();
-    BOOST_CHECK(addr_ret2.ToString() == "250.1.1.1:8333");
+    BOOST_CHECK(addr_ret2.ToString() == "250.1.1.1:7993");
 
     // Test 8: Add same IP but diff port to tried table, it doesn't get added.
     //  Perhaps this is not ideal behavior but it is the current behavior.
@@ -84,7 +84,7 @@ BOOST_AUTO_TEST_CASE(addrman_ports)
     BOOST_CHECK(addrman.size() == 1);
     bool newOnly = true;
     CAddrInfo addr_ret3 = addrman.Select(newOnly);
-    BOOST_CHECK(addr_ret3.ToString() == "250.1.1.1:8333");
+    BOOST_CHECK(addr_ret3.ToString() == "250.1.1.1:7993");
 }
 
 
@@ -95,16 +95,16 @@ BOOST_AUTO_TEST_CASE(addrman_select)
     // Set addrman addr placement to be deterministic.
     addrman.MakeDeterministic();
 
-    CNetAddr source = CNetAddr("252.2.2.2:8333");
+    CNetAddr source = CNetAddr("252.2.2.2:7993");
 
     // Test 9: Select from new with 1 addr in new.
-    CService addr1 = CService("250.1.1.1:8333");
+    CService addr1 = CService("250.1.1.1:7993");
     addrman.Add(CAddress(addr1), source);
     BOOST_CHECK(addrman.size() == 1);
 
     bool newOnly = true;
     CAddrInfo addr_ret1 = addrman.Select(newOnly);
-    BOOST_CHECK(addr_ret1.ToString() == "250.1.1.1:8333");
+    BOOST_CHECK(addr_ret1.ToString() == "250.1.1.1:7993");
 
 
     // Test 10: move addr to tried, select from new expected nothing returned.
@@ -114,7 +114,7 @@ BOOST_AUTO_TEST_CASE(addrman_select)
     BOOST_CHECK(addr_ret2.ToString() == "[::]:0");
 
     CAddrInfo addr_ret3 = addrman.Select();
-    BOOST_CHECK(addr_ret3.ToString() == "250.1.1.1:8333");
+    BOOST_CHECK(addr_ret3.ToString() == "250.1.1.1:7993");
 }
 
 BOOST_AUTO_TEST_CASE(addrman_new_collisions)
@@ -124,7 +124,7 @@ BOOST_AUTO_TEST_CASE(addrman_new_collisions)
     // Set addrman addr placement to be deterministic.
     addrman.MakeDeterministic();
 
-    CNetAddr source = CNetAddr("252.2.2.2:8333");
+    CNetAddr source = CNetAddr("252.2.2.2:7993");
 
     BOOST_CHECK(addrman.size() == 0);
 
@@ -153,7 +153,7 @@ BOOST_AUTO_TEST_CASE(addrman_tried_collisions)
     // Set addrman addr placement to be deterministic.
     addrman.MakeDeterministic();
 
-    CNetAddr source = CNetAddr("252.2.2.2:8333");
+    CNetAddr source = CNetAddr("252.2.2.2:7993");
 
     BOOST_CHECK(addrman.size() == 0);
 

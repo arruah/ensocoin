@@ -43,22 +43,22 @@ second is the `expeditedblock` entry which makes the request to begin the receip
 
 You can have muliple `addnode` and expedited entries up to a maximum of 8 connections.  See the following example:
 
-	addnode=10.233.34.33:8333
-	expeditedblock=10.233.34.33:8333
+	addnode=10.233.34.33:7993
+	expeditedblock=10.233.34.33:7993
 	addnode=11.222.34.55:10500
 	expeditedblock=11.222.34.55:10500
 	addnode=45.33.223.34
 	expeditedblock=45.33.223.34
-	addnode=45.33.233.45:8333
-	expeditedblock=45.33.233.45:8333
-	addnode=42.33.233.45:8333
-	expeditedblock=42.33.233.45:8333
-	addnode=15.33.233.45:8333
-	expeditedblock=15.33.233.45:8333
-	addnode=45.33.22.45:8333
-	expeditedblock=45.33.22.45:8333
-	addnode=145.33.233.45:8333
-	expeditedblock=145.33.233.45:8333
+	addnode=45.33.233.45:7993
+	expeditedblock=45.33.233.45:7993
+	addnode=42.33.233.45:7993
+	expeditedblock=42.33.233.45:7993
+	addnode=15.33.233.45:7993
+	expeditedblock=15.33.233.45:7993
+	addnode=45.33.22.45:7993
+	expeditedblock=45.33.22.45:7993
+	addnode=145.33.233.45:7993
+	expeditedblock=145.33.233.45:7993
 
 
 2b. Setting up an Xpedited connection with RPC
@@ -79,11 +79,11 @@ Using RPC is simple as follows:
 
 For example, to turn on expedited forwarding of blocks from a remote peer to my peer you would enter the following:
 
-	bitcoin-cli expedited block "192.168.0.6:8333" on
+	bitcoin-cli expedited block "192.168.0.6:7993" on
 
 and to do the same for transaction fowarding I would enter:
 
-	bitcoin-cli expedited tx "192.168.0.6:8333" on
+	bitcoin-cli expedited tx "192.168.0.6:7993" on
 
 
 To get more help on how to use the RPC commands you can type in "bitcoin-cli help expedited" from the command line, or if you ar using the debug console
