@@ -132,7 +132,7 @@
         <translation>Потврдете го криптирањето на паричникот</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
         <translation>Предупредување: Ако го шифрирате вашиот паричник и ја изгубите вашата тајна фраза, ќе &lt;b&gt;ГИ ИЗГУБИТЕ СИТЕ ВАШИ БИТКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -250,7 +250,7 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
+        <source>REPLACE_1_PROJNAME client</source>
         <translation>Биткоин Core софтверот</translation>
     </message>
     <message>
@@ -286,7 +286,7 @@
         <translation>&amp;Прими</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
+        <source>Show information about REPLACE_1_PROJNAME</source>
         <translation>Прикажи информации за Биткоин Core</translation>
     </message>
     <message>
@@ -306,11 +306,11 @@
         <translation>&amp;Помош</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
         <translation>&amp;За Биткоин Core</translation>
     </message>
     <message numerus="yes">
@@ -575,7 +575,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
@@ -587,14 +587,14 @@
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
+        <source>About REPLACE_1_PROJNAME</source>
         <translation>За Биткоин Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Биткоин Core</translation>
     </message>
     <message>
@@ -934,7 +934,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Биткоин Core</translation>
     </message>
     </context>

@@ -156,16 +156,16 @@
         <translation>Apstiprināt maciņa šifrēšanu</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS REPLACE_4_PROJNAME&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Vai tu tiešām vēlies šifrēt savu maciņu?</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Unlimited tiks aizvērts, lai pabeigtu šifrēšansa procesu. Atcerieties, ka jūsu maka šifrēšana nevar pilnībā pasargāt jūsu monētas no to nozagašanas, inficējot datoru ar ļaunprātīgām programmām.</translation>
+        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>REPLACE_1_PROJNAME tiks aizvērts, lai pabeigtu šifrēšansa procesu. Atcerieties, ka jūsu maka šifrēšana nevar pilnībā pasargāt jūsu monētas no to nozagašanas, inficējot datoru ar ļaunprātīgām programmām.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -290,8 +290,8 @@
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
-        <translation>Bitcoin Unlimited klients</translation>
+        <source>REPLACE_1_PROJNAME client</source>
+        <translation>REPLACE_1_PROJNAME klients</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -342,8 +342,8 @@
         <translation>&amp;Saņemt</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
-        <translation>Parādīt informāciju par Bitcoin Unlimited</translation>
+        <source>Show information about REPLACE_1_PROJNAME</source>
+        <translation>Parādīt informāciju par REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -382,16 +382,16 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Pieprasīt maksājumus (izveido QR kodu un bitcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
-        <translation>Par &amp;Bitcoin Unlimited</translation>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <translation>Par &amp;REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
@@ -705,8 +705,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>version</source>
@@ -717,8 +717,8 @@
         <translation>(%1-biti)</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
-        <translation>Par Bitcoin Unlimited</translation>
+        <source>About REPLACE_1_PROJNAME</source>
+        <translation>Par REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -740,8 +740,8 @@
         <translation>Sveiciens</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Unlimited.</source>
-        <translation>Sveicināts Bitcoin Unlimited</translation>
+        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <translation>Sveicināts REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -752,8 +752,8 @@
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1542,8 +1542,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Unlimited is shutting down...</source>
-        <translation>Bitcoin Unlimited tiek izslēgta...</translation>
+        <source>REPLACE_1_PROJNAME is shutting down...</source>
+        <translation>REPLACE_1_PROJNAME tiek izslēgta...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1672,12 +1672,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
-        <source>The Bitcoin Unlimited developers</source>
-        <translation>Bitcoin Unlimited izstrādātāji</translation>
+        <source>The REPLACE_1_PROJNAME developers</source>
+        <translation>REPLACE_1_PROJNAME izstrādātāji</translation>
     </message>
     <message>
         <source>[testnet]</source>

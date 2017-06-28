@@ -160,15 +160,15 @@
         <translation>تأكيد تشفير المحفظة</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات BITCOINS الخاصة بك.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات REPLACE_4_PROJNAME الخاصة بك.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>هل أنت متأكد من رغبتك في تشفير محفظتك ؟</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
     </message>
     <message>
@@ -298,7 +298,7 @@
         <translation>افتح &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
+        <source>REPLACE_1_PROJNAME client</source>
         <translation>عميل bitcion core</translation>
     </message>
     <message>
@@ -350,7 +350,7 @@
         <translation>&amp;استقبل</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
+        <source>Show information about REPLACE_1_PROJNAME</source>
         <translation>  اظهار معلومات حول bitcion core</translation>
     </message>
     <message>
@@ -390,15 +390,15 @@
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
         <translation>حول bitcoin core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Unlimited</source>
+        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
         <translation>تغيير خيارات الإعداد لأساس Bitcoin</translation>
     </message>
     <message>
@@ -653,7 +653,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
@@ -661,7 +661,7 @@
         <translation>النسخة</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
+        <source>About REPLACE_1_PROJNAME</source>
         <translation>عن جوهر البيت كوين</translation>
     </message>
     <message>
@@ -684,7 +684,7 @@
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
@@ -1372,11 +1372,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
-        <source>The Bitcoin Unlimited developers</source>
+        <source>The REPLACE_1_PROJNAME developers</source>
         <translation>مطوري جوهر البيت كوين</translation>
     </message>
     <message>

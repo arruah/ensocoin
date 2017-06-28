@@ -8,7 +8,7 @@ Files: *
 Copyright: 2009-2016, Bitcoin Developers
 License: Expat
 Comment: The Bitcoin Developers encompasses the current developers listed on bitcoin.org, 
-         on www.bitcoinunlimited.info and numerous other contributors to the project.
+         on www.REPLACE_1_LINK and numerous other contributors to the project.
 
 Files: debian/*
 Copyright: 2010-2011, Jonas Smedegaard <dr@jones.dk>

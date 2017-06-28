@@ -153,16 +153,16 @@ Réessayez.</translation>
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Attention: Si vous cryptez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <translation>Attention: Si vous cryptez votre portefeuille et que vous perdez votre mot de passe vous &lt;b&gt; PERDREZ TOUS VOS REPLACE_4_PROJNAME&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de de vouloir crypter votre portefeuille ? </translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Unlimited fermera maintenant pour finir le processus de chiffrement. Rappelez-vous que crypter votre portefeuille ne protége pas totalement vos bitcoins d'être volé par un malware ayant infecté votre ordinateur. </translation>
+        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>REPLACE_1_PROJNAME fermera maintenant pour finir le processus de chiffrement. Rappelez-vous que crypter votre portefeuille ne protége pas totalement vos bitcoins d'être volé par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -291,8 +291,8 @@ Réessayez.</translation>
         <translation>Ouvrir &amp;URI</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
-        <translation>Client Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME client</source>
+        <translation>Client REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -343,8 +343,8 @@ Réessayez.</translation>
         <translation>&amp;Réception</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
-        <translation>Montrer les informations à propos de Bitcoin Unlimited</translation>
+        <source>Show information about REPLACE_1_PROJNAME</source>
+        <translation>Montrer les informations à propos de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -379,20 +379,20 @@ Réessayez.</translation>
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Demander des paiements (générer QR codes et bitcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
         <translation>&amp;À propos de Bitcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Unlimited</source>
-        <translation>Modifier les options de configuration de Bitcoin Unlimited</translation>
+        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
+        <translation>Modifier les options de configuration de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -804,8 +804,8 @@ Réessayez.</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>version</source>
@@ -816,8 +816,8 @@ Réessayez.</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
-        <translation>À propos de Bitcoin Unlimited</translation>
+        <source>About REPLACE_1_PROJNAME</source>
+        <translation>À propos de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -847,8 +847,8 @@ Réessayez.</translation>
         <translation>Bienvenue </translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Unlimited.</source>
-        <translation>Bienvenue sur Bitcoin Unlimited.</translation>
+        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <translation>Bienvenue sur REPLACE_1_PROJNAME.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -859,8 +859,8 @@ Réessayez.</translation>
         <translation>Utiliser votre propre répertoire</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -945,8 +945,8 @@ Réessayez.</translation>
         <translation>&amp;Réseau</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Unlimited after logging in to the system.</source>
-        <translation>Démarrer automatiquement Bitcoin Unlimited après s'être connecté au système. </translation>
+        <source>Automatically start REPLACE_1_PROJNAME after logging in to the system.</source>
+        <translation>Démarrer automatiquement REPLACE_1_PROJNAME après s'être connecté au système. </translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1879,12 +1879,12 @@ Réessayez.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
-        <source>The Bitcoin Unlimited developers</source>
-        <translation>Les développeurs de Bitcoin Unlimited</translation>
+        <source>The REPLACE_1_PROJNAME developers</source>
+        <translation>Les développeurs de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>[testnet]</source>

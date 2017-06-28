@@ -108,7 +108,7 @@
         <translation>Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
         <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -302,7 +302,7 @@
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin Nucleus</translation>
     </message>
     <message>
@@ -461,7 +461,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin Nucleus</translation>
     </message>
     <message>
@@ -484,7 +484,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin Nucleus</translation>
     </message>
     <message>
@@ -1032,7 +1032,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin Nucleus</translation>
     </message>
     <message>

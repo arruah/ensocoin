@@ -110,7 +110,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play bitcoins" on the test network, if you
+Run with the -testnet option to run with "play REPLACE_3_PROJNAME" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
@@ -119,7 +119,7 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Bitcoin Unlimited is a multithreaded application, and deadlocks or other multithreading bugs
+REPLACE_1_PROJNAME_MD is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.
@@ -128,7 +128,7 @@ are held, and adds warnings to the debug.log file if inconsistencies are detecte
 
 *Currently only available on Linux*
 
-Bitcoin Unlimited can be compiled with the libtcmalloc allocation library and
+REPLACE_1_PROJNAME_MD can be compiled with the libtcmalloc allocation library and
 memory profiling tool.  First install libtcmalloc either from source here
 https://github.com/gperftools/gperftools or via package manager:
 ```bash
@@ -189,7 +189,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 8332 for connections and services them.
 
-- BitcoinMiner : Generates bitcoins (if wallet is enabled).
+- BitcoinMiner : Generates REPLACE_3_PROJNAME (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 
@@ -199,7 +199,7 @@ Ignoring IDE/editor files
 In closed-source environments in which everyone uses the same IDE it is common
 to add temporary files it produces to the project-wide `.gitignore` file.
 
-However, in open source software such as Bitcoin Unlimited, where everyone uses
+However, in open source software such as REPLACE_1_PROJNAME_MD, where everyone uses
 their own editors/IDE/tools, it is less common. Only you know what files your
 editor produces and this may change from version to version. The canonical way
 to do this is thus to create your local gitignore. Add this to `~/.gitconfig`:
@@ -229,9 +229,9 @@ Development guidelines
 ============================
 
 A few non-style-related recommendations for developers, as well as points to
-pay attention to for reviewers of Bitcoin Unlimited code.
+pay attention to for reviewers of REPLACE_1_PROJNAME_MD code.
 
-General Bitcoin Unlimited
+General REPLACE_1_PROJNAME_MD
 ----------------------
 
 - New features should be exposed on RPC first, then can be made available in the GUI
@@ -342,7 +342,7 @@ Strings and formatting
 
 - For `strprintf`, `LogPrint`, `LogPrintf` formatting characters don't need size specifiers
 
-  - *Rationale*: Bitcoin Unlimited uses tinyformat, which is type safe. Leave them out to avoid confusion
+  - *Rationale*: REPLACE_1_PROJNAME_MD uses tinyformat, which is type safe. Leave them out to avoid confusion
 
 Threads and synchronization
 ----------------------------

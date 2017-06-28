@@ -152,8 +152,8 @@
         <translation>Confirmar encriptación de moedeiro</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS REPLACE_4_PROJNAME&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -350,7 +350,7 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Core de Bitcoin</translation>
     </message>
     <message>
@@ -358,8 +358,8 @@
         <translation>Solicitar pagos (xenera códigos QR e bitcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
-        <translation>&amp;Sobre Bitcoin Unlimited</translation>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <translation>&amp;Sobre REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -681,7 +681,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Core de Bitcoin</translation>
     </message>
     <message>
@@ -689,7 +689,7 @@
         <translation>versión</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
+        <source>About REPLACE_1_PROJNAME</source>
         <translation>Sobre Bitcoin core</translation>
     </message>
     <message>
@@ -720,7 +720,7 @@
         <translation>Empregar un directorio de datos personalizado</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Core de Bitcoin</translation>
     </message>
     <message>
@@ -1520,12 +1520,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Core de Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Unlimited developers</source>
-        <translation>Os desarrolladores de Bitcoin Unlimited</translation>
+        <source>The REPLACE_1_PROJNAME developers</source>
+        <translation>Os desarrolladores de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>[testnet]</source>

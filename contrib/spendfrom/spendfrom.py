@@ -152,7 +152,7 @@ def create_tx(bitcoind, fromaddresses, toaddress, amount, fee):
         total_available += all_coins[addr]["total"]
 
     if total_available < needed:
-        sys.stderr.write("Error, only %f BTC available, need %f\n"%(total_available, needed));
+        sys.stderr.write("Error, only %f REPLACE_1_COIN available, need %f\n"%(total_available, needed));
         sys.exit(1)
 
     #
@@ -221,9 +221,9 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get bitcoins from")
+                      help="addresses to get REPLACE_3_PROJNAME from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send bitcoins to")
+                      help="address to get send REPLACE_3_PROJNAME to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",

@@ -140,8 +140,8 @@
         <translation>Kumpirman ya ing wallet encryption</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG BITCOINS&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <translation>Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG REPLACE_4_PROJNAME&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -310,7 +310,7 @@
         <translation>Gamit para king Tabs</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Kapilubluban ning Bitcoin</translation>
     </message>
     <message>
@@ -457,7 +457,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Kapilubluban ning Bitcoin</translation>
     </message>
     <message>
@@ -484,7 +484,7 @@
         <translation>Malaus ka</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Kapilubluban ning Bitcoin</translation>
     </message>
     <message>
@@ -1008,7 +1008,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Kapilubluban ning Bitcoin</translation>
     </message>
     <message>

@@ -93,14 +93,14 @@ for normal IPv4/IPv6 communication, use:
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-Bitcoin Unlimited has been updated to make use of this.
+REPLACE_1_PROJNAME_MD has been updated to make use of this.
 
 This means that if Tor is running (and proper authorization is available),
-Bitcoin Unlimited automatically creates a hidden service to listen on, without
+REPLACE_1_PROJNAME_MD automatically creates a hidden service to listen on, without
 manual configuration. This will positively affect the number of available
 .onion nodes.
 
-This new feature is enabled by default if Bitcoin Unlimited is listening, and
+This new feature is enabled by default if REPLACE_1_PROJNAME_MD is listening, and
 a connection to Tor can be made. It can be configured with the `-listenonion`,
 `-torcontrol` and `-torpassword` settings. To show verbose debugging
 information, pass `-debug=tor`.

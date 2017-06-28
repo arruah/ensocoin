@@ -268,10 +268,10 @@ with `-txconfirmtarget=<m>` (default: `2`).
 
 Sometimes, it is not possible to give good estimates, or an estimate
 at all. Therefore, a fallback value can be set with `-fallbackfee=<f>`
-(default: `0.0002` BTC/kB).
+(default: `0.0002` REPLACE_1_COIN/kB).
 
 At all times, Bitcoin Core will cap fees at `-maxtxfee=<x>` (default:
-0.10) BTC.
+0.10) REPLACE_1_COIN.
 Furthermore, Bitcoin Core will never create transactions paying less than
 the current minimum relay fee.
 Finally, a user can set the minimum fee rate for all transactions with

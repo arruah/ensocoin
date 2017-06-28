@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2014-2015 The Bitcoin Core developers
-# Copyright (c) 2015-2017 The Bitcoin Unlimited developers
+# REPLACE_2_COPYRIGHT
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,10 +14,10 @@ class WalletTest (BitcoinTestFramework):
         fee = balance_with_fee - curr_balance
         target_fee = fee_per_byte * tx_size
         if fee < target_fee:
-            raise AssertionError("Fee of %s BTC too low! (Should be %s BTC)"%(str(fee), str(target_fee)))
+            raise AssertionError("Fee of %s REPLACE_1_COIN too low! (Should be %s REPLACE_1_COIN)"%(str(fee), str(target_fee)))
         # allow the node's estimation to be at most 2 bytes off
         if fee > fee_per_byte * (tx_size + 2):
-            raise AssertionError("Fee of %s BTC too high! (Should be %s BTC)"%(str(fee), str(target_fee)))
+            raise AssertionError("Fee of %s REPLACE_1_COIN too high! (Should be %s REPLACE_1_COIN)"%(str(fee), str(target_fee)))
         return curr_balance
 
     def setup_chain(self,bitcoinConfDict=None, wallets=None):

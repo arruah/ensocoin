@@ -160,7 +160,7 @@
         <translation>Пацвердзіце шыфраванне гаманца</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
         <translation>Увага: калі вы зашыфруеце свой гаманец і страціце парольную фразу, то &lt;b&gt;СТРАЦІЦЕ ЎСЕ СВАЕ БІТКОЙНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Ці ўпэўненыя вы, што жадаеце зашыфраваць свой гаманец?</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Unlimited зараз будзе зачынены, каб фіналізаваць працэс шыфравання. Памятайце, што шыфраванне вашага гаманца не гарантуе абсалютную абарону ад магчымасці крадзяжу біткойнаў шкоднымі праграмамі, якія могуць інфікаваць ваш камп'ютар.</translation>
+        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>REPLACE_1_PROJNAME зараз будзе зачынены, каб фіналізаваць працэс шыфравання. Памятайце, што шыфраванне вашага гаманца не гарантуе абсалютную абарону ад магчымасці крадзяжу біткойнаў шкоднымі праграмамі, якія могуць інфікаваць ваш камп'ютар.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -298,8 +298,8 @@
         <translation>Адчыниць &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
-        <translation>Bitcoin Unlimited кліент</translation>
+        <source>REPLACE_1_PROJNAME client</source>
+        <translation>REPLACE_1_PROJNAME кліент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -350,8 +350,8 @@
         <translation>Атрымаць</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
-        <translation>Паказаць інфармацыю аб Bitcoin Unlimited</translation>
+        <source>Show information about REPLACE_1_PROJNAME</source>
+        <translation>Паказаць інфармацыю аб REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -386,20 +386,20 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Запатрабаваць плацёж (генеруецца QR-код для біткойн URI)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
-        <translation>Аб Bitcoin Unlimited</translation>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <translation>Аб REPLACE_1_PROJNAME</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Unlimited</source>
-        <translation>Мадыфікаваць опцыі канфігурацыі Bitcoin Unlimited</translation>
+        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
+        <translation>Мадыфікаваць опцыі канфігурацыі REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,8 +418,8 @@
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Unlimited help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Паказваць даведку Bitcoin Unlimited каб атрымаць спіс магчымых опцый каманднага радка</translation>
+        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Паказваць даведку REPLACE_1_PROJNAME каб атрымаць спіс магчымых опцый каманднага радка</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -775,16 +775,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-біт)</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
-        <translation>Аб Bitcoin Unlimited</translation>
+        <source>About REPLACE_1_PROJNAME</source>
+        <translation>Аб REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -806,12 +806,12 @@
         <translation>Вітаем</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Unlimited.</source>
-        <translation>Вітаем у Bitcoin Unlimited.</translation>
+        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <translation>Вітаем у REPLACE_1_PROJNAME.</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1102,12 +1102,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
-        <source>The Bitcoin Unlimited developers</source>
-        <translation>Распрацоўнікі Bitcoin Unlimited</translation>
+        <source>The REPLACE_1_PROJNAME developers</source>
+        <translation>Распрацоўнікі REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>[testnet]</source>

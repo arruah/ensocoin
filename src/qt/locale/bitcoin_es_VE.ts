@@ -152,8 +152,8 @@
         <translation>Confirmar encriptación de billetera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: Si encriptas tu billetera y pierdes tu frase secreta, ¡PERDERÁS TODOS TUS BITCOINS!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <translation>Aviso: Si encriptas tu billetera y pierdes tu frase secreta, ¡PERDERÁS TODOS TUS REPLACE_4_PROJNAME!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -242,8 +242,8 @@
         <translation>Recepción de direcciones</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
-        <translation>Cliente Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME client</source>
+        <translation>Cliente REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -286,8 +286,8 @@
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
-        <translation>Mostrar información acerca de Bitcoin Unlimited</translation>
+        <source>Show information about REPLACE_1_PROJNAME</source>
+        <translation>Mostrar información acerca de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -318,12 +318,12 @@
         <translation>&amp;Configuración</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
-        <translation>Acerca de Bitcoin Unlimited</translation>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <translation>Acerca de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -673,8 +673,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>version</source>
@@ -685,8 +685,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
-        <translation>Acerca de Bitcoin Unlimited</translation>
+        <source>About REPLACE_1_PROJNAME</source>
+        <translation>Acerca de REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -704,8 +704,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Unlimited will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Unlimited descargará y almacenará una copia de la cadena de bloques Bitcoin. Al menos %1GB de datos serán almacenados en este directorio, y crecerá con el tiempo. La billetera será también almacenada en este directorio.</translation>
+        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>REPLACE_1_PROJNAME descargará y almacenará una copia de la cadena de bloques Bitcoin. Al menos %1GB de datos serán almacenados en este directorio, y crecerá con el tiempo. La billetera será también almacenada en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -716,8 +716,8 @@
         <translation>Usa un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -936,8 +936,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     </context>
 <context>
@@ -1102,8 +1102,8 @@
         <translation>Esta es una compilación de prueba pre-lanzamiento - use bajo su propio riesgo - no utilizar para aplicaciones de minería o mercantes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Unlimited is probably already running.</source>
-        <translation>Deshabilitar para enlezar a %s en esta computadora. Bitcoin Unlimited probablemente ya está ejecutándose.</translation>
+        <source>Unable to bind to %s on this computer. REPLACE_1_PROJNAME is probably already running.</source>
+        <translation>Deshabilitar para enlezar a %s en esta computadora. REPLACE_1_PROJNAME probablemente ya está ejecutándose.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>

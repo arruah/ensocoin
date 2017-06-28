@@ -230,7 +230,7 @@
         <translation>&amp;Derbyn</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
+        <source>Show information about REPLACE_1_PROJNAME</source>
         <translation>Dangos gwybodaeth am Graidd Bitcoin</translation>
     </message>
     <message>
@@ -254,11 +254,11 @@
         <translation>Bar offer tabiau</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
         <translation>&amp;Ynghylch Craidd Bitcoin</translation>
     </message>
     <message numerus="yes">
@@ -425,11 +425,11 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
+        <source>About REPLACE_1_PROJNAME</source>
         <translation>Ynghylch Craidd Bitcoin</translation>
     </message>
     <message>
@@ -444,11 +444,11 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Unlimited.</source>
+        <source>Welcome to REPLACE_1_PROJNAME.</source>
         <translation>Croeso i Graidd Bitcoin</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
@@ -664,11 +664,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Unlimited developers</source>
+        <source>The REPLACE_1_PROJNAME developers</source>
         <translation>Datblygwyr Graidd Bitcoin</translation>
     </message>
     <message>

@@ -1,13 +1,13 @@
-Release Notes for Bitcoin Unlimited v1.0.1
+Release Notes for REPLACE_1_PROJNAME_MD v1.0.1
 ==========================================
 
-Bitcoin Unlimited version 1.0.1 is now available from:
+REPLACE_1_PROJNAME_MD version 1.0.1 is now available from:
 
-  <https://bitcoinunlimited.info/download>
+  <https://REPLACE_1_LINK/download>
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/BitcoinUnlimited/BitcoinUnlimited/issues>
+  <https://REPLACE_3_LINK/issues>
 
 This is a bugfix rollup release
 

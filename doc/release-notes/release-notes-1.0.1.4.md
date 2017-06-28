@@ -1,13 +1,13 @@
-Release Notes for Bitcoin Unlimited v1.0.1.4
+Release Notes for REPLACE_1_PROJNAME_MD v1.0.1.4
 ============================================
 
-Bitcoin Unlimited version 1.0.1.4 is now available from:
+REPLACE_1_PROJNAME_MD version 1.0.1.4 is now available from:
 
-  <https://bitcoinunlimited.info/download>
+  <https://REPLACE_1_LINK/download>
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/BitcoinUnlimited/BitcoinUnlimited/issues>
+  <https://REPLACE_3_LINK/issues>
 
 This is an hotfix release.
 
@@ -70,7 +70,7 @@ Commit details
 - `c212385` sources.list.d is the correct directory (姜家志)
 - `204cc48` Added checking for mined block size > excessive block size. (Allan Doensen)
 - `850b572` Added functionality for 'reset options' button. (Allan Doensen)
-- `56096a5` MaxGeneratedBlock, ExcessiveBlockSize & ExcessiveAcceptDepth qt text field widgets in the bitcoin unlimited settings dialog. (Allan Doensen)
+- `56096a5` MaxGeneratedBlock, ExcessiveBlockSize & ExcessiveAcceptDepth qt text field widgets in the REPLACE_1_PROJNAME_MD settings dialog. (Allan Doensen)
 
 
 Credits

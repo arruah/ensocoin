@@ -174,8 +174,8 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
-        <translation>Bitcoin Unlimited client</translation>
+        <source>REPLACE_1_PROJNAME client</source>
+        <translation>REPLACE_1_PROJNAME client</translation>
     </message>
     <message>
         <source>Bitcoin</source>
@@ -214,12 +214,12 @@
         <translation>Trợ &amp;giúp</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
-        <translation>&amp;Về Bitcoin Unlimited</translation>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <translation>&amp;Về REPLACE_1_PROJNAME</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -377,16 +377,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
-        <translation>Về Bitcoin Unlimited</translation>
+        <source>About REPLACE_1_PROJNAME</source>
+        <translation>Về REPLACE_1_PROJNAME</translation>
     </message>
     </context>
 <context>
@@ -396,8 +396,8 @@
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Error</source>
@@ -616,8 +616,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
-        <translation>Bitcoin Unlimited</translation>
+        <source>REPLACE_1_PROJNAME</source>
+        <translation>REPLACE_1_PROJNAME</translation>
     </message>
     </context>
 <context>

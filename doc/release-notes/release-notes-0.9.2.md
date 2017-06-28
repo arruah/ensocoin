@@ -93,7 +93,7 @@ Protocol and network code:
 Wallet:
 
 - Make GetAvailableCredit run GetHash() only once per transaction (performance improvement)
-- Lower paytxfee warning threshold from 0.25 BTC to 0.01 BTC
+- Lower paytxfee warning threshold from 0.25 REPLACE_1_COIN to 0.01 REPLACE_1_COIN
 - Fix importwallet nTimeFirstKey (trigger necessary rescans)
 - Log BerkeleyDB version at startup
 - CWallet init fix

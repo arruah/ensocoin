@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2015-2017 The Bitcoin Unlimited developers
+// REPLACE_1_COPYRIGHT
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "BitcoinUnlimited"
-#define QAPP_ORG_DOMAIN "bitcoinunlimited.info"
+#define QAPP_ORG_DOMAIN "REPLACE_1_LINK"
 #define QAPP_APP_NAME_DEFAULT "Bitcoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Bitcoin-Qt-testnet"
 #define QAPP_APP_NAME_NOLNET "Bitcoin-Qt-nolimit"   // BU

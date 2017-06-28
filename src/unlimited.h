@@ -1,5 +1,5 @@
 // Copyright (c) 2015 G. Andrew Stone
-// Copyright (c) 2016-2017 The Bitcoin Unlimited developers
+// REPLACE_3_COPYRIGHT
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

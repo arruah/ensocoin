@@ -40,7 +40,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/BitcoinUnlimited/BitcoinUnlimited.git
+        git clone https://REPLACE_2_LINK
         cd bitcoin
 
 2.  Build bitcoin-core:

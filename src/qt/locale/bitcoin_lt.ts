@@ -160,7 +160,7 @@
         <translation>Patvirtinkite piniginės užšifravimą</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
         <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO BITCOINUS&lt;/b&gt;! </translation>
     </message>
     <message>
@@ -286,8 +286,8 @@
         <translation>Atidaryti &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited client</source>
-        <translation>Bitcoin Unlimited klientas</translation>
+        <source>REPLACE_1_PROJNAME client</source>
+        <translation>REPLACE_1_PROJNAME klientas</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -338,8 +338,8 @@
         <translation>&amp;Gauti</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Unlimited</source>
-        <translation>Rodyti informaciją apie Bitcoin Unlimited</translation>
+        <source>Show information about REPLACE_1_PROJNAME</source>
+        <translation>Rodyti informaciją apie REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -370,12 +370,12 @@
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Unlimited</source>
-        <translation>&amp;Apie Bitcoin Unlimited</translation>
+        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <translation>&amp;Apie REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -637,7 +637,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
@@ -645,8 +645,8 @@
         <translation>versija</translation>
     </message>
     <message>
-        <source>About Bitcoin Unlimited</source>
-        <translation>Apie Bitcoin Unlimited</translation>
+        <source>About REPLACE_1_PROJNAME</source>
+        <translation>Apie REPLACE_1_PROJNAME</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -668,11 +668,11 @@
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Unlimited.</source>
-        <translation>Sveiki atvykę į Bitcoin Unlimited.</translation>
+        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <translation>Sveiki atvykę į REPLACE_1_PROJNAME.</translation>
     </message>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
@@ -1360,7 +1360,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Unlimited</source>
+        <source>REPLACE_1_PROJNAME</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>

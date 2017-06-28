@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2015-2017 The Bitcoin Unlimited developers
+// REPLACE_1_COPYRIGHT
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -198,7 +198,7 @@ private Q_SLOTS:
 #endif // ENABLE_WALLET
     /** Show configuration dialog */
     void optionsClicked();
-    /** Show Bitcoin Unlimited dialog */
+    /** Show REPLACE_1_PROJNAME dialog */
     void unlimitedClicked();
     /** Show about dialog */
     void aboutClicked();

@@ -1,13 +1,13 @@
-Bitcoin Unlimited version x.y.z.k is now available from:
+REPLACE_1_PROJNAME_MD version x.y.z.k is now available from:
 
-  <https://bitcoinunlimited.info/download>
+  <https://REPLACE_1_LINK/download>
 
 This is a new minor version release, including ........,
 various bugfixes and updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/BitcoinUnlimited/BitcoinUnlimited/issues>
+  <https://REPLACE_3_LINK/issues>
 
 Upgrading and downgrading
 =========================
