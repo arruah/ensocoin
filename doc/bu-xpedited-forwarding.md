@@ -28,14 +28,14 @@ request expedited service from a particular node (use "addnode <IP> onetry" to m
 your connection to this node is dropped, or your node is reset, expedited service will not be re-established until you run the 
 `expedited` command again.
 
-The recommended method is to add entries in your bitcoin.conf file.  With this mechanism the configuration will persist and Xpedited service
+The recommended method is to add entries in your ensocoin.conf file.  With this mechanism the configuration will persist and Xpedited service
 will be restarted when either your node or the other is restarted.
 
 
-2a. Setting up an Xpedited connection using bitcoin.conf
+2a. Setting up an Xpedited connection using ensocoin.conf
 --------------------------------------------------------
 
-Two bitcoin.conf entries need to be made.  One is the `addnode` connection which opens the connection to the remote peer and the 
+Two ensocoin.conf entries need to be made.  One is the `addnode` connection which opens the connection to the remote peer and the 
 second is the `expeditedblock` entry which makes the request to begin the receipt of xpedited blocks from this peer.
 
 	addnode=<ip:port>

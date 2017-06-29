@@ -206,11 +206,11 @@ CTweakRef<int> maxConnectionsTweak("net.maxConnections", "Maximum number of conn
 CTweakRef<int> minXthinNodesTweak("net.minXthinNodes",
     "Minimum number of outbound xthin capable nodes to connect to",
     &nMinXthinNodes);
-// When should I request a tx from someone else (in microseconds). cmdline/bitcoin.conf: -txretryinterval
+// When should I request a tx from someone else (in microseconds). cmdline/ensocoin.conf: -txretryinterval
 CTweakRef<unsigned int> triTweak("net.txRetryInterval",
     "How long to wait in microseconds before requesting a transaction from another source",
     &MIN_TX_REQUEST_RETRY_INTERVAL);
-// When should I request a block from someone else (in microseconds). cmdline/bitcoin.conf: -blkretryinterval
+// When should I request a block from someone else (in microseconds). cmdline/ensocoin.conf: -blkretryinterval
 CTweakRef<unsigned int> briTweak("net.blockRetryInterval",
     "How long to wait in microseconds before requesting a block from another source",
     &MIN_BLK_REQUEST_RETRY_INTERVAL);

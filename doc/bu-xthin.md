@@ -6,7 +6,7 @@ How to setup and get the best results with Xthins
 ---------------------------------
 
 When you run a Bitcoin Unimited node the XTHIN service is turned on by default.  If you wish to turn it off for some reason
-you can use the bitcoin.conf setting (0 = off, 1 = on) as follows:
+you can use the ensocoin.conf setting (0 = off, 1 = on) as follows:
 
 	use-thinblocks=0
 

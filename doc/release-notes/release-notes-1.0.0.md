@@ -94,7 +94,7 @@ default maximum size is limited to 1MB. Blocks with a transaction exceeding this
 size will be simply rejected.
 
 It is possible to configure this value, in case the network has the capacity and
-a use-cases for allowing transactions >1MB. The command for the bitcoin.conf is
+a use-cases for allowing transactions >1MB. The command for the ensocoin.conf is
 net.excessiveTx=1000000. But it is not expected that a change in this setting
 will be network-wide for many years, if ever.
 Attention: It is recommended to use the defaults.
@@ -226,11 +226,11 @@ Command Tweaks
 --------------
 
 To allow a better organization of parameters in the command line or the
-bitcoin.conf, Ensocoin introduces a new format using the dot notation.
+ensocoin.conf, Ensocoin introduces a new format using the dot notation.
 For example, to manage connections users can now specify "net.maxConnections" or
 "net.maxOutboundConnections".
 
-Parameter access is unified -- the same name is used in bitcoin.conf, via
+Parameter access is unified -- the same name is used in ensocoin.conf, via
 command line arguments, or via bitcoin-cli (et al). Old parameters in the legacy
 format are still supported, while new parameters, like the excessive block size,
 are only implemented in the new format.

@@ -44,7 +44,7 @@ This allows for running bitcoind without having to do any manual configuration.
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see `contrib/debian/examples/bitcoin.conf`.
+see `contrib/debian/examples/ensocoin.conf`.
 
 3. Paths
 ---------------------------------
@@ -54,7 +54,7 @@ see `contrib/debian/examples/bitcoin.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/bitcoind`  
-Configuration file:  `/etc/bitcoin/bitcoin.conf`  
+Configuration file:  `/etc/bitcoin/ensocoin.conf`  
 Data directory:      `/var/lib/bitcoind`  
 PID file:            `/var/run/bitcoind/bitcoind.pid` (OpenRC and Upstart) or `/var/lib/bitcoind/bitcoind.pid` (systemd)  
 Lock file:           `/var/lock/subsys/bitcoind` (CentOS)  
@@ -68,7 +68,7 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bitcoind`  
-Configuration file:  `~/Library/Application Support/Ensocoin/bitcoin.conf`
+Configuration file:  `~/Library/Application Support/Ensocoin/ensocoin.conf`
 Data directory:      `~/Library/Application Support/Ensocoin`
 Lock file:           `~/Library/Application Support/Ensocoin/.lock`
 

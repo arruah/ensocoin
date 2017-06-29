@@ -187,7 +187,7 @@ def initialize_datadir(dirname, n,bitcoinConfDict=None,wallet=None):
                 "port":p2p_port(n),"rpcport":str(rpc_port(n)),"listenonion":0,"maxlimitertxfee":0}
     if bitcoinConfDict: defaults.update(bitcoinConfDict)
 
-    with open(os.path.join(datadir, "bitcoin.conf"), 'w') as f:
+    with open(os.path.join(datadir, "ensocoin.conf"), 'w') as f:
         for (key,val) in defaults.items():
           if type(val) is type([]):
             for v in val:
@@ -293,7 +293,7 @@ def initialize_chain(test_dir,bitcoinConfDict=None,wallets=None):
         from_dir = os.path.join("cache", "node"+str(i))
         to_dir = os.path.join(test_dir,  "node"+str(i))
         shutil.copytree(from_dir, to_dir)
-        initialize_datadir(test_dir, i,bitcoinConfDict,wallets[i] if wallets else None) # Overwrite port/rpcport in bitcoin.conf
+        initialize_datadir(test_dir, i,bitcoinConfDict,wallets[i] if wallets else None) # Overwrite port/rpcport in ensocoin.conf
 
 def initialize_chain_clean(test_dir, num_nodes, bitcoinConfDict=None, wallets=None):
     """

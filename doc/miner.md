@@ -23,13 +23,13 @@ bitcoin-cli setexcessiveblock 1000000 10
 ```
 
 
-To change the excessive block size field in bitcoin.conf or on the command line, set the excessiveblocksize config variable to a value in bytes:
+To change the excessive block size field in ensocoin.conf or on the command line, set the excessiveblocksize config variable to a value in bytes:
  > `excessiveblocksize=<NNN>`
  
 for example, to set 3MB blocks use:
  > excessiveblocksize=3000000
 
-To change the accept depth field in bitcoin.conf or on the command line, set the excessiveacceptdepth config variable to a value (in blocks):
+To change the accept depth field in ensocoin.conf or on the command line, set the excessiveacceptdepth config variable to a value (in blocks):
  > `excessiveacceptdepth=<NNN>`
  
 for example, to wait for 10 blocks before accepting an excessive block, use:
@@ -50,7 +50,7 @@ $ bitcoin-cli getexcessiveblock
 Setting your subversion string (spoofing the user agent)
 --------------------------------------------------------
 
-To hide that this is a Ensocoin node, set the "net.subversionOverride" to a string of your choice, in the bitcoin.conf file or using ./bitcoin-cli:
+To hide that this is a Ensocoin node, set the "net.subversionOverride" to a string of your choice, in the ensocoin.conf file or using ./bitcoin-cli:
 
 ```sh
  bitcoin-cli set net.subversionOverride="Your Choice Here"
@@ -62,7 +62,7 @@ To show the current string:
 bitcoin-cli get net.subversionOverride
 ```
 
-To change this field in bitcoin.conf or on the command line, use:
+To change this field in ensocoin.conf or on the command line, use:
  > net.subversionOverride=<YourChoiceHere>
 
 
@@ -81,7 +81,7 @@ For example, to set 2MB blocks, use:
 ```sh
 bitcoin-cli setminingmaxblock 2000000
 ```
-To change this field in bitcoin.conf or on the command line, use:
+To change this field in ensocoin.conf or on the command line, use:
  > `blockmaxsize=<NNN>`
  
 for example, to set 3MB blocks use:
@@ -122,10 +122,10 @@ You can discover the current block version using:
 ```sh
 bitcoin-cli getblockversion
 ```
-From bitcoin.conf:
+From ensocoin.conf:
  > blockversion=805306368
 
-Note you must specify the version in decimal format in the bitcoin.conf file.
+Note you must specify the version in decimal format in the ensocoin.conf file.
 Here is an easy conversion in Linux: python -c "print '%d' % 0x30000000"
 
  - WARNING: If you use nonsense numbers when calling setblockversion, you'll end up generating blocks with nonsense versions!
@@ -134,7 +134,7 @@ Setting your block retry intervals
 ----------------------------------
 
 Ensocoin tracks multiple sources for data an can rapidly request blocks or transactions from other sources if one source does not deliver the requested data.
-To change the retry rate, set it in microseconds in your bitcoin.conf:
+To change the retry rate, set it in microseconds in your ensocoin.conf:
 
 Transaction retry interval:
  > txretryinterval=2000000
@@ -145,7 +145,7 @@ Transaction retry interval:
 Setting your memory pool size
 -----------------------------
 
-A larger transaction memory pool allows your node to receive expedited blocks successfully (it increases the chance that you will have a transaction referenced in the expedited block) and to pick from a larger set of available transactions.  To change the memory pool size, configure it in bitcoin.conf:
+A larger transaction memory pool allows your node to receive expedited blocks successfully (it increases the chance that you will have a transaction referenced in the expedited block) and to pick from a larger set of available transactions.  To change the memory pool size, configure it in ensocoin.conf:
 
  > `maxmempool=<megabytes>`
 

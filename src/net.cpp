@@ -1804,7 +1804,7 @@ void ThreadOpenConnections()
             {
                 CAddress addr;
                 //NOTE: Because the only nodes we are connecting to here are the ones the user put in their
-                //      bitcoin.conf/commandline args as "-connect", we don't use the semaphore to limit outbound connections
+                //      ensocoin.conf/commandline args as "-connect", we don't use the semaphore to limit outbound connections
                 OpenNetworkConnection(addr, NULL, strAddr.c_str());
                 for (int i = 0; i < 10 && i < nLoop; i++)
                 {
@@ -2342,7 +2342,7 @@ void StartNode(boost::thread_group& threadGroup, CScheduler& scheduler)
     }
 
     //We need to initialize vAddedNodes here.  It is now used in AcceptConnection to limit the number of inbound
-    //connections based on the configured "addnode" options from bitcoin.conf/command line, however the old
+    //connections based on the configured "addnode" options from ensocoin.conf/command line, however the old
     //initialization location in ThreadOpenAddedConnections was both started after ThreadSocketHandler, which
     //calls AcceptConnection, and has an explicit 15 second delay to the start of ThreadOpenAddedConnections
     //which allows any nodes actively trying to connect to this node during startup to exceed the inbound connection limit

@@ -31,7 +31,7 @@ extern std::vector<CNode *> xpeditedBlk; // Who requested expedited blocks from 
 extern std::vector<CNode *> xpeditedBlkUp; // Who we requested expedited blocks from
 extern std::vector<CNode *> xpeditedTxn;
 
-// Checks to see if the node is configured in bitcoin.conf to
+// Checks to see if the node is configured in ensocoin.conf to
 extern bool CheckAndRequestExpeditedBlocks(CNode *pfrom);
 
 // be an expedited block source and if so, request them.

@@ -98,7 +98,7 @@ inline void fill(const UniValue& v, bool& output)
 bool match(const char* first, const char* second);
   
 /** A configuration parameter that is automatically hooked up to
- * bitcoin.conf, bitcoin-cli, and is available as a command line argument
+ * ensocoin.conf, bitcoin-cli, and is available as a command line argument
  */
 template <class DataType>
 class CTweakRef : public CTweakBase
@@ -176,7 +176,7 @@ public:
 };
 
 /** A configuration parameter that is automatically hooked up to
- * bitcoin.conf, bitcoin-cli, and is available as a command line argument
+ * ensocoin.conf, bitcoin-cli, and is available as a command line argument
  */
 template <class DataType>
 class CTweak : public CTweakBase
