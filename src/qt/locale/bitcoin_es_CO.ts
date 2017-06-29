@@ -157,16 +157,16 @@ Estas son las direcciones de Bitcoin para enviar pagos . Siempre verifique la ca
         <translation>Confirmar encriptación de la billetera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
-        <translation>Precaución: Si tú has encriptado tu billetera y has perdido tu contraseña, usted &lt;b&gt;PERDERÁ TODOS TUS REPLACE_4_PROJNAME&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
+        <translation>Precaución: Si tú has encriptado tu billetera y has perdido tu contraseña, usted &lt;b&gt;PERDERÁ TODOS TUS ENSOCOINS&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estas seguro de que deseas encriptar tu billetera?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>REPLACE_1_PROJNAME se cerrará ahora para finalizar el proceso de encriptación. Recuerda que encriptando tu billetera no protegera por completo tus bitcoins desde robos por malware que infectan tu computadora.</translation>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Ensocoin se cerrará ahora para finalizar el proceso de encriptación. Recuerda que encriptando tu billetera no protegera por completo tus bitcoins desde robos por malware que infectan tu computadora.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -279,8 +279,8 @@ Estas son las direcciones de Bitcoin para enviar pagos . Siempre verifique la ca
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
-        <translation>REPLACE_1_PROJNAME cliente</translation>
+        <source>Ensocoin client</source>
+        <translation>Ensocoin cliente</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -323,8 +323,8 @@ Estas son las direcciones de Bitcoin para enviar pagos . Siempre verifique la ca
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
-        <translation>Mostrar información sobre REPLACE_1_PROJNAME</translation>
+        <source>Show information about Ensocoin</source>
+        <translation>Mostrar información sobre Ensocoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -347,8 +347,8 @@ Estas son las direcciones de Bitcoin para enviar pagos . Siempre verifique la ca
         <translation>&amp;Ayuda</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -374,15 +374,15 @@ Estas son las direcciones de Bitcoin para enviar pagos . Siempre verifique la ca
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -457,8 +457,8 @@ Estas son las direcciones de Bitcoin para enviar pagos . Siempre verifique la ca
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     </context>
 <context>

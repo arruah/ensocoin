@@ -1,13 +1,13 @@
-Release Notes for REPLACE_1_PROJNAME_MD v1.0.1.4
+Release Notes for Ensocoin v1.0.1.4
 ============================================
 
-REPLACE_1_PROJNAME_MD version 1.0.1.4 is now available from:
+Ensocoin version 1.0.1.4 is now available from:
 
-  <https://REPLACE_1_LINK/download>
+  <https://ensocoin.org/download>
 
 Please report bugs using the issue tracker at github:
 
-  <https://REPLACE_3_LINK/issues>
+  <https://lab.axioma.lv/axioma/BitcoinUnlimited/issues>
 
 This is an hotfix release.
 
@@ -70,7 +70,7 @@ Commit details
 - `c212385` sources.list.d is the correct directory (姜家志)
 - `204cc48` Added checking for mined block size > excessive block size. (Allan Doensen)
 - `850b572` Added functionality for 'reset options' button. (Allan Doensen)
-- `56096a5` MaxGeneratedBlock, ExcessiveBlockSize & ExcessiveAcceptDepth qt text field widgets in the REPLACE_1_PROJNAME_MD settings dialog. (Allan Doensen)
+- `56096a5` MaxGeneratedBlock, ExcessiveBlockSize & ExcessiveAcceptDepth qt text field widgets in the Ensocoin settings dialog. (Allan Doensen)
 
 
 Credits

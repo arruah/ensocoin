@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// REPLACE_1_COPYRIGHT
+// Copyright (c) 2015-2017 The Bitcoin Unlimited developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 
 #include "tinyformat.h"
 
-const std::string CURRENCY_UNIT = "REPLACE_1_COIN";
+const std::string CURRENCY_UNIT = "ECN";
 
 CFeeRate::CFeeRate(const CAmount& nFeePaid, size_t nSize)
 {

@@ -160,7 +160,7 @@
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Bitcoin はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>本当にウォレットを暗号化しますか?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>暗号化処理を完了させるため REPLACE_1_PROJNAME をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるビットコインの盗難から完全に守ることはできないことにご注意ください。</translation>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>暗号化処理を完了させるため Ensocoin をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるビットコインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -306,7 +306,7 @@
         <translation>URI を開く (&amp;U)...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
+        <source>Ensocoin client</source>
         <translation>Bitcoinコア クライアント</translation>
     </message>
     <message>
@@ -358,7 +358,7 @@
         <translation>入金 (&amp;R)</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
+        <source>Show information about Ensocoin</source>
         <translation>Bitcoinコアに関する情報を表示</translation>
     </message>
     <message>
@@ -398,7 +398,7 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin のコア</translation>
     </message>
     <message>
@@ -406,12 +406,12 @@
         <translation>支払いを要求する (QRコードとbitcoin:ではじまるURIを生成する)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>ビットコインコアについて (&amp;A)</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME の設定を編集する</translation>
+        <source>Modify configuration options for Ensocoin</source>
+        <translation>Ensocoin の設定を編集する</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,8 +430,8 @@
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
-        <translation>有効な Bitcoin のコマンドライン オプションを見るために REPLACE_1_PROJNAME のヘルプメッセージを表示します。</translation>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
+        <translation>有効な Bitcoin のコマンドライン オプションを見るために Ensocoin のヘルプメッセージを表示します。</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -855,7 +855,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin のコア</translation>
     </message>
     <message>
@@ -867,7 +867,7 @@
         <translation>(%1ビット)</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>Bitcoinコアについて</translation>
     </message>
     <message>
@@ -918,16 +918,16 @@
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation>ようこそ！</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
-        <translation>これはプログラム最初の起動です。REPLACE_1_PROJNAMEがデータを保存する場所を選択して下さい。</translation>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
+        <translation>これはプログラム最初の起動です。Ensocoinがデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>REPLACE_1_PROJNAMEは、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ensocoinは、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -938,7 +938,7 @@
         <translation>任意のデータ ディレクトリを使用:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin のコア</translation>
     </message>
     <message>
@@ -1020,8 +1020,8 @@
         <translation>ウィンドウを閉じる際にアプリケーションを終了するのではなく、最小化します。このオプションが有効化された場合、メニューから終了を選択した場合にのみアプリケーションは閉じられます。</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting REPLACE_1_PROJNAME.</source>
-        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はREPLACE_1_PROJNAMEの再起動後に有効となります。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ensocoin.</source>
+        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はEnsocoinの再起動後に有効となります。</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1048,12 +1048,12 @@
         <translation>ネットワーク (&amp;N)</translation>
     </message>
     <message>
-        <source>Automatically start REPLACE_1_PROJNAME after logging in to the system.</source>
-        <translation>システムにログインした際、自動的にREPLACE_1_PROJNAMEを起動する。</translation>
+        <source>Automatically start Ensocoin after logging in to the system.</source>
+        <translation>システムにログインした際、自動的にEnsocoinを起動する。</translation>
     </message>
     <message>
-        <source>&amp;Start REPLACE_1_PROJNAME on system login</source>
-        <translation>システムへログインした際にREPLACE_1_PROJNAMEを起動する (&amp;S)</translation>
+        <source>&amp;Start Ensocoin on system login</source>
+        <translation>システムへログインした際にEnsocoinを起動する (&amp;S)</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1518,8 +1518,8 @@
         <translation>メモリ使用量</translation>
     </message>
     <message>
-        <source>Open the REPLACE_1_PROJNAME debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>現在のデータディレクトリからREPLACE_1_PROJNAMEのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
+        <source>Open the Ensocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータディレクトリからEnsocoinのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1678,8 +1678,8 @@
         <translation>ノードのbanを解除する (&amp;U)</translation>
     </message>
     <message>
-        <source>Welcome to the REPLACE_1_PROJNAME RPC console.</source>
-        <translation>REPLACE_1_PROJNAMEのRPCコンソールへようこそ。</translation>
+        <source>Welcome to the Ensocoin RPC console.</source>
+        <translation>EnsocoinのRPCコンソールへようこそ。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2264,8 +2264,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
-        <translation>REPLACE_1_PROJNAMEをシャットダウンしています。</translation>
+        <source>Ensocoin is shutting down...</source>
+        <translation>Ensocoinをシャットダウンしています。</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2414,11 +2414,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin のコア</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
+        <source>The Ensocoin developers</source>
         <translation>ビットコインコアの開発者</translation>
     </message>
     <message>
@@ -2936,8 +2936,8 @@
         <translation>ひとつのウォレットトランザクションで使用する合計手数料 (%s 単位) の最大値。低すぎる値を指定すると巨大なトランザクションの作成ができなくなります (規定値: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong REPLACE_1_PROJNAME will not work properly.</source>
-        <translation>あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければREPLACE_1_PROJNAMEが正確に動作しません。</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Ensocoin will not work properly.</source>
+        <translation>あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければEnsocoinが正確に動作しません。</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3008,8 +3008,8 @@
         <translation>これはリリース前のテストビルドです - 各自の責任で利用すること - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>このコンピュータの %s にバインドすることができません。おそらく REPLACE_1_PROJNAME は既に実行されています。</translation>
+        <source>Unable to bind to %s on this computer. Ensocoin is probably already running.</source>
+        <translation>このコンピュータの %s にバインドすることができません。おそらく Ensocoin は既に実行されています。</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3217,8 +3217,8 @@
         <translation>指定されたアドレスに対して JSON-RPC 接続をリッスンしするようバインドします。IPv6の場合には [host]:port 表記を使用してください。このオプションは複数回指定することが可能です (初期値: すべてのインターフェースに対してバインドする)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく REPLACE_1_PROJNAME は実行中です。</translation>
+        <source>Cannot obtain a lock on data directory %s. Ensocoin is probably already running.</source>
+        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく Ensocoin は実行中です。</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3317,12 +3317,12 @@
         <translation>SOCKS5 プロキシ経由で接続する</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The REPLACE_1_PROJNAME Developers</source>
-        <translation>Copyright (C) 2009-%i REPLACE_1_PROJNAME 開発者</translation>
+        <source>Copyright (C) 2009-%i The Ensocoin Developers</source>
+        <translation>Copyright (C) 2009-%i Ensocoin 開発者</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of REPLACE_1_PROJNAME</source>
-        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの REPLACE_1_PROJNAME が必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ensocoin</source>
+        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの Ensocoin が必要です</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3337,8 +3337,8 @@
         <translation>情報</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. REPLACE_1_PROJNAME is shutting down.</source>
-        <translation>初期化時の健全性チェックに失敗しました。REPLACE_1_PROJNAMEを終了します。</translation>
+        <source>Initialization sanity check failed. Ensocoin is shutting down.</source>
+        <translation>初期化時の健全性チェックに失敗しました。Ensocoinを終了します。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3457,8 +3457,8 @@
         <translation>JSON-RPC 接続のユーザー名</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart REPLACE_1_PROJNAME to complete</source>
-        <translation>ウォレットが書き直される必要がありました: 完了するために REPLACE_1_PROJNAME を再起動します</translation>
+        <source>Wallet needed to be rewritten: restart Ensocoin to complete</source>
+        <translation>ウォレットが書き直される必要がありました: 完了するために Ensocoin を再起動します</translation>
     </message>
     <message>
         <source>Warning</source>

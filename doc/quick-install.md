@@ -3,7 +3,7 @@ Installing BU from sources and from Ubuntu repos
 
 Really quick guide to get your bitcoind/qt up and running
 
-Installing binaries from REPLACE_1_PROJNAME_MD Official BU repositories
+Installing binaries from Ensocoin Official BU repositories
 ------------------------------------------------------------------
 
 This is valid for Ubuntu Trusty 14.04 and Xenial 16.04. The repos will provide binaries and debug symbols for 4 different architectures: i386, amd64, armhf and arm64.
@@ -27,7 +27,7 @@ If you are moving from another Bitcoin compatible implementations (Core, Classic
    - `cd /path/where/the/code/is/stored`
    - `sudo make uninstall`
 
-Other than the PPA repo mentioned above, serving stable version of REPLACE_1_PROJNAME_MD, we have set up another repository which will contain binaries built from source code snapshots of the BU development branch (`0.12.1bu` currently). If you're interested in testing the latest features included in BU but still not released just add this repository to your system. Use this commands:
+Other than the PPA repo mentioned above, serving stable version of Ensocoin, we have set up another repository which will contain binaries built from source code snapshots of the BU development branch (`0.12.1bu` currently). If you're interested in testing the latest features included in BU but still not released just add this repository to your system. Use this commands:
 
 ```sh
 sudo add-apt-repository ppa:bitcoin-unlimited/bu-ppa-nightly
@@ -72,7 +72,7 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 ```sh
 mkdir -p ~/src
 cd ~/src
-git clone https://REPLACE_2_LINK bu-src
+git clone https://lab.axioma.lv/axioma/BitcoinUnlimited.git bu-src
 cd bu-src
 git checkout <desired_branch/tag>   # e.g. git checkout 0.12.1c
 ./autogen.sh

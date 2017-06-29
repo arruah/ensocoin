@@ -146,7 +146,7 @@
         <translation>&amp;உதவி</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin மையம்</translation>
     </message>
     <message numerus="yes">
@@ -289,11 +289,11 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin மையம்</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>Bitcoin மையம் பற்றி</translation>
     </message>
     </context>
@@ -304,7 +304,7 @@
         <translation>நல்வரவு</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin மையம்</translation>
     </message>
     <message>
@@ -812,7 +812,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin மையம்</translation>
     </message>
     </context>

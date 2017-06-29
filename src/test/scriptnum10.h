@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// REPLACE_1_COPYRIGHT
+// Copyright (c) 2015-2017 The Bitcoin Unlimited developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,7 +24,7 @@ public:
 class CScriptNum10
 {
 /**
- * The ScriptNum implementation from REPLACE_1_PROJNAME 0.10.0, for cross-comparison.
+ * The ScriptNum implementation from Ensocoin 0.10.0, for cross-comparison.
  */
 public:
 

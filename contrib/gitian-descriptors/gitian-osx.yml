@@ -23,7 +23,7 @@ packages:
 - "python"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://REPLACE_2_LINK"
+- "url": "https://lab.axioma.lv/axioma/BitcoinUnlimited.git"
   "dir": "bitcoin"
 files:
 - "MacOSX10.9.sdk.tar.gz"

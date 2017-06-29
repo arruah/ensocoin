@@ -24,9 +24,9 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.REPLACE_1_LINK/
-Vcs-Git: git://REPLACE_2_LINK
-Vcs-Browser: https://REPLACE_3_LINK
+Homepage: https://www.ensocoin.org/
+Vcs-Git: git://lab.axioma.lv/axioma/BitcoinUnlimited.git
+Vcs-Browser: https://lab.axioma.lv/axioma/BitcoinUnlimited
 
 Package: bitcoind
 Architecture: any
@@ -35,7 +35,7 @@ Description: peer-to-peer network based digital currency - daemon
  Bitcoin is an experimental new digital currency that enables instant
  payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. REPLACE_1_PROJNAME
+ and issuing money are carried out collectively by the network. Ensocoin
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, bitcoind, and the CLI tool
@@ -48,7 +48,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Bitcoin is an experimental new digital currency that enables instant
  payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. REPLACE_1_PROJNAME
+ and issuing money are carried out collectively by the network. Ensocoin
  is the name of the open source software which enables the use of this currency.
  .
  This package provides Bitcoin-Qt, a GUI for Bitcoin based on Qt.

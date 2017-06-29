@@ -160,7 +160,7 @@
         <translation>Cüzdanın şifrelemesini teyit eder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Şifreleme işlemini tamamlamak için Bitcoin Çekirdeği şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Bitcoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
@@ -306,7 +306,7 @@
         <translation>&amp;URI aç...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
+        <source>Ensocoin client</source>
         <translation>Bitcoin Çekirdeği istemcisi</translation>
     </message>
     <message>
@@ -358,7 +358,7 @@
         <translation>&amp;Al</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
+        <source>Show information about Ensocoin</source>
         <translation>Bitcoin Çekirdeği hakkında bilgi göster</translation>
     </message>
     <message>
@@ -398,7 +398,7 @@
         <translation>Sekme araç çubuğu</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Çekirdeği</translation>
     </message>
     <message>
@@ -406,11 +406,11 @@
         <translation>Ödeme talep et (QR kodu ve bitcoin URI'si oluşturur)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>Bitcoin Çekirdeği &amp;hakkında</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
+        <source>Modify configuration options for Ensocoin</source>
         <translation>Bitcoin Çekirdeği yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
         <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
         <translation>Bitcoin komut satırı seçeneklerinin listesini elde etmek için Bitcoin Çekirdeği yardım mesajını göster</translation>
     </message>
     <message numerus="yes">
@@ -855,7 +855,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Çekirdeği</translation>
     </message>
     <message>
@@ -867,7 +867,7 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>Bitcoin Çekirdeği hakkında</translation>
     </message>
     <message>
@@ -918,15 +918,15 @@
         <translation>Hoş geldiniz</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation>Bitcoin Çekirdeğine hoş geldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
         <translation>Bu programı ilk kez başlattığınızdan dolayı Bitcoin Çekirdeğinin verilerini nereye saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Bitcoin çekirdeği Bitcoin blok zincirinin bir kopyasını indirip saklayacaktır. Asgari %1GB bouyutunda veri bu klasörde saklanacak ve zamanla bu boyut artacaktır. Cüzdan da bu klasörde saklanacaktır. </translation>
     </message>
     <message>
@@ -938,7 +938,7 @@
         <translation>Özel bir veri klasörü kullan:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Çekirdeği</translation>
     </message>
     <message>
@@ -1020,7 +1020,7 @@
         <translation>Pencere kapatıldığında uygulamadan çıkmak yerine uygulamayı küçültür. Bu seçenek etkinleştirildiğinde, uygulama sadece menüden çıkış seçildiğinde kapanacaktır.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting REPLACE_1_PROJNAME.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ensocoin.</source>
         <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Bitcoin Çekirdeği tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
@@ -1048,11 +1048,11 @@
         <translation>&amp;Şebeke</translation>
     </message>
     <message>
-        <source>Automatically start REPLACE_1_PROJNAME after logging in to the system.</source>
+        <source>Automatically start Ensocoin after logging in to the system.</source>
         <translation>Sistemde oturum açıldığında Bitcoin Çekirdeğini otomatik olarak başlat.</translation>
     </message>
     <message>
-        <source>&amp;Start REPLACE_1_PROJNAME on system login</source>
+        <source>&amp;Start Ensocoin on system login</source>
         <translation>Bitcoin Çekirdeğini sistem oturumuyla &amp;başlat</translation>
     </message>
     <message>
@@ -1518,7 +1518,7 @@
         <translation>Bellek kullanımı</translation>
     </message>
     <message>
-        <source>Open the REPLACE_1_PROJNAME debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Ensocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Güncel veri klasöründen Bitcoin Çekirdeği hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
@@ -1678,7 +1678,7 @@
         <translation>Düğümün Yasağını Kald&amp;ır</translation>
     </message>
     <message>
-        <source>Welcome to the REPLACE_1_PROJNAME RPC console.</source>
+        <source>Welcome to the Ensocoin RPC console.</source>
         <translation>Bitcoin Çekirdeği RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
@@ -2264,7 +2264,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
+        <source>Ensocoin is shutting down...</source>
         <translation>Bitcoin Çekirdeği kapanıyor...</translation>
     </message>
     <message>
@@ -2414,11 +2414,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Çekirdeği</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
+        <source>The Ensocoin developers</source>
         <translation>Bitcoin Çekirdeği geliştiricileri</translation>
     </message>
     <message>
@@ -2936,7 +2936,7 @@
         <translation>Tek cüzdan muamelesinde kullanılacak azami toplam ücret (%s olarak); bunu çok düşük olarak ayarlamak büyük muameleleri iptal edebilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong REPLACE_1_PROJNAME will not work properly.</source>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Ensocoin will not work properly.</source>
         <translation>Lütfen bilgisayarınızın saat ve tarihinin doğru olduğunu kontol ediniz! Saatinizde gecikme varsa Bitcoin Çekirdeği doğru şekilde çalışamaz.</translation>
     </message>
     <message>
@@ -3008,7 +3008,7 @@
         <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - bitcoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. REPLACE_1_PROJNAME is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Ensocoin is probably already running.</source>
         <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Bitcoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
@@ -3216,7 +3216,7 @@
         <translation>Belirtilen adrese bağlan ve JSON RPC bağlantıları için dinlemeye geç. IPv6 için [makine]:port imlasını kullanınız. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arayüzlere bağlan)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. REPLACE_1_PROJNAME is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Ensocoin is probably already running.</source>
         <translation>%s veri dizininde kilit elde edilemedi. Bitcoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
@@ -3316,11 +3316,11 @@
         <translation>SOCKS5 vekil sunucusu vasıtasıyla bağlan</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The REPLACE_1_PROJNAME Developers</source>
+        <source>Copyright (C) 2009-%i The Ensocoin Developers</source>
         <translation>Telif hakkı 2009-%i Bitcoin Çekirdeği Geliştiricileri</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of REPLACE_1_PROJNAME</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ensocoin</source>
         <translation>wallet.dat dosyasının yüklenmesinde hata: Cüzdan Bitcoin Çekirdeğinin daha yeni bir sürümünü gerektirmektedir</translation>
     </message>
     <message>
@@ -3336,7 +3336,7 @@
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. REPLACE_1_PROJNAME is shutting down.</source>
+        <source>Initialization sanity check failed. Ensocoin is shutting down.</source>
         <translation>Başlatma sınaması başarısız oldu. Bitcoin Çekirdeği kapatılıyor.</translation>
     </message>
     <message>
@@ -3456,7 +3456,7 @@
         <translation>JSON-RPC bağlantıları için kullanıcı ismi</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart REPLACE_1_PROJNAME to complete</source>
+        <source>Wallet needed to be rewritten: restart Ensocoin to complete</source>
         <translation>Cüzdanın tekrar yazılması gerekmektedir: tamamlamak için Bitcoin Çekirdeğini yeniden başlatın</translation>
     </message>
     <message>

@@ -140,8 +140,8 @@
         <translation>Confirma la codificación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
-        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS REPLACE_4_PROJNAME&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
+        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS ENSOCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -262,7 +262,7 @@
         <translation>Abrir y url...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
+        <source>Ensocoin client</source>
         <translation>cliente bitcoin core</translation>
     </message>
     <message>
@@ -310,8 +310,8 @@
         <translation>y recibir</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
-        <translation>Mostrar informacion sobre REPLACE_1_PROJNAME</translation>
+        <source>Show information about Ensocoin</source>
+        <translation>Mostrar informacion sobre Ensocoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -338,7 +338,7 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>bitcoin core</translation>
     </message>
     <message>
@@ -346,11 +346,11 @@
         <translation>Pide pagos (genera codigos QR and bitcoin: URls)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
-        <translation>&amp;Sobre REPLACE_1_PROJNAME</translation>
+        <source>&amp;About Ensocoin</source>
+        <translation>&amp;Sobre Ensocoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
+        <source>Modify configuration options for Ensocoin</source>
         <translation>Modifica las opciones para BitCoin Core</translation>
     </message>
     <message>
@@ -538,7 +538,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>bitcoin core</translation>
     </message>
     <message>
@@ -561,7 +561,7 @@
         <translation>bienvenido</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>bitcoin core</translation>
     </message>
     <message>
@@ -1072,7 +1072,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>bitcoin core</translation>
     </message>
     <message>

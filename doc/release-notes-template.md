@@ -1,13 +1,13 @@
-REPLACE_1_PROJNAME_MD version x.y.z.k is now available from:
+Ensocoin version x.y.z.k is now available from:
 
-  <https://REPLACE_1_LINK/download>
+  <https://ensocoin.org/download>
 
 This is a new minor version release, including ........,
 various bugfixes and updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://REPLACE_3_LINK/issues>
+  <https://lab.axioma.lv/axioma/BitcoinUnlimited/issues>
 
 Upgrading and downgrading
 =========================

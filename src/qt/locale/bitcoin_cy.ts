@@ -230,7 +230,7 @@
         <translation>&amp;Derbyn</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
+        <source>Show information about Ensocoin</source>
         <translation>Dangos gwybodaeth am Graidd Bitcoin</translation>
     </message>
     <message>
@@ -254,11 +254,11 @@
         <translation>Bar offer tabiau</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>&amp;Ynghylch Craidd Bitcoin</translation>
     </message>
     <message numerus="yes">
@@ -425,11 +425,11 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>Ynghylch Craidd Bitcoin</translation>
     </message>
     <message>
@@ -444,11 +444,11 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation>Croeso i Graidd Bitcoin</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
@@ -664,11 +664,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Craidd Bitcoin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
+        <source>The Ensocoin developers</source>
         <translation>Datblygwyr Graidd Bitcoin</translation>
     </message>
     <message>

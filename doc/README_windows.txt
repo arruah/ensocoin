@@ -1,4 +1,4 @@
-REPLACE_1_PROJNAME 0.12.1b
+Ensocoin 0.12.1b
 
 Intro
 -----
@@ -12,7 +12,7 @@ Setup
 -----
 Unpack the files into a directory and run bitcoin-qt.exe.
 
-REPLACE_1_PROJNAME is a fork of the original Bitcoin client and it builds the backbone of the network.
+Ensocoin is a fork of the original Bitcoin client and it builds the backbone of the network.
 However, it downloads and stores the entire history of Bitcoin transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.

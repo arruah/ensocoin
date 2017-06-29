@@ -1,9 +1,9 @@
 Contributing to Bitcoin
 =======================
 
-The REPLACE_1_PROJNAME_MD project operates an open contributor model where anyone is welcome to contribute towards development in the form of peer review, testing and patches. This document explains the practical process and guidelines for contributing.
+The Ensocoin project operates an open contributor model where anyone is welcome to contribute towards development in the form of peer review, testing and patches. This document explains the practical process and guidelines for contributing.
 
-Small features and patches can be contributed simply by issuing a pull request (PR) to this repository and working with the REPLACE_1_PROJNAME_MD Developer if any questions arise during the merge process.  Larger features should be proposed (and may be proposed before implemention) to the REPLACE_1_PROJNAME_MD members by writing a BUIP and submitting it to the REPLACE_1_PROJNAME_MD forum at: https://bitco.in/forum/forums/bitcoin-unlimited.15/.  If a proposal is accepted, then a contributor may issue a PR which will be merged.
+Small features and patches can be contributed simply by issuing a pull request (PR) to this repository and working with the Ensocoin Developer if any questions arise during the merge process.  Larger features should be proposed (and may be proposed before implemention) to the Ensocoin members by writing a BUIP and submitting it to the Ensocoin forum at: https://bitco.in/forum/forums/bitcoin-unlimited.15/.  If a proposal is accepted, then a contributor may issue a PR which will be merged.
 
 
 Contributor Workflow
@@ -67,9 +67,9 @@ Project maintainers aim for a quick turnaround on refactoring pull requests, so 
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the REPLACE_1_PROJNAME_MD project (and related projects such as libsecp256k1), and is not to be confused with overall Bitcoin Network Protocol consensus changes.
+The following applies to code changes to the Ensocoin project (and related projects such as libsecp256k1), and is not to be confused with overall Bitcoin Network Protocol consensus changes.
 
-Whether a pull request is merged into REPLACE_1_PROJNAME_MD rests with the project merge maintainers and ultimately the project lead. 
+Whether a pull request is merged into Ensocoin rests with the project merge maintainers and ultimately the project lead. 
 
 Maintainers will take into consideration if a patch is in line with the general principles of the project; meets the minimum standards for inclusion; and will judge the general consensus of contributors.
 
@@ -107,4 +107,4 @@ Where a patch set proposes to change the Bitcoin consensus, it must have been di
 Release Policy
 --------------
 
-The project leader is the release manager for each REPLACE_1_PROJNAME_MD release.
+The project leader is the release manager for each Ensocoin release.
