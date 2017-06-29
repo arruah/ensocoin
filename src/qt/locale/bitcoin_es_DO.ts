@@ -152,8 +152,8 @@
         <translation>Confirmar cifrado de la cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS REPLACE_4_PROJNAME&lt;/b&gt;!"</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS ENSOCOINS&lt;/b&gt;!"</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -362,7 +362,7 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Núcleo de Bitcoin</translation>
     </message>
     <message>
@@ -370,7 +370,7 @@
         <translation>Solicitar pagos (genera codigo QR y URL's de Bitcoin)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>&amp;Acerca del Núcleo de Bitcoin</translation>
     </message>
     <message>
@@ -717,7 +717,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Núcleo de Bitcoin</translation>
     </message>
     <message>
@@ -725,7 +725,7 @@
         <translation>versión</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>Acerca del Núcleo de Bitcoin</translation>
     </message>
     <message>
@@ -748,15 +748,15 @@
         <translation>Bienvenido</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation>Bienvenido al Núcleo de Bitcoin</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
         <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Bitcoin-Qt.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Bitcoin-Qt va a descargar y guardar una copia de la cadena de bloques de Bitcoin. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
@@ -768,7 +768,7 @@
         <translation>Utilice un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Núcleo de Bitcoin</translation>
     </message>
     <message>
@@ -1672,11 +1672,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Núcleo de Bitcoin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
+        <source>The Ensocoin developers</source>
         <translation>Los desarrolladores del Núcleo de Bitcoin</translation>
     </message>
     <message>

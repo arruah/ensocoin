@@ -1,13 +1,13 @@
-Release Notes for REPLACE_1_PROJNAME_MD v1.0.1
+Release Notes for Ensocoin v1.0.1
 ==========================================
 
-REPLACE_1_PROJNAME_MD version 1.0.1 is now available from:
+Ensocoin version 1.0.1 is now available from:
 
-  <https://REPLACE_1_LINK/download>
+  <https://ensocoin.org/download>
 
 Please report bugs using the issue tracker at github:
 
-  <https://REPLACE_3_LINK/issues>
+  <https://lab.axioma.lv/axioma/BitcoinUnlimited/issues>
 
 This is a bugfix rollup release
 

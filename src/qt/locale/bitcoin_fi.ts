@@ -160,7 +160,7 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI BITCOINISI&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Haluatko varmasti salata lompakkosi?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>REPLACE_1_PROJNAME sammuu nyt viimeistelläkseen kryptaamisen. Muista että lompakon kryptaaminen ei voi täysin suojata bitcoinejasi varkaudelta malwaren saastuttamalla tietokoneella.</translation>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Ensocoin sammuu nyt viimeistelläkseen kryptaamisen. Muista että lompakon kryptaaminen ei voi täysin suojata bitcoinejasi varkaudelta malwaren saastuttamalla tietokoneella.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -306,8 +306,8 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
-        <translation>REPLACE_1_PROJNAME ohjelma</translation>
+        <source>Ensocoin client</source>
+        <translation>Ensocoin ohjelma</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
-        <translation>Näytä tietoja REPLACE_1_PROJNAME:sta</translation>
+        <source>Show information about Ensocoin</source>
+        <translation>Näytä tietoja Ensocoin:sta</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -398,7 +398,7 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>
@@ -406,12 +406,12 @@
         <translation>Pyydä maksuja (Luo QR koodit ja bitcoin: URIt)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
-        <translation>&amp;Tietoja REPLACE_1_PROJNAME</translation>
+        <source>&amp;About Ensocoin</source>
+        <translation>&amp;Tietoja Ensocoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
-        <translation>Muokkaa kokoonpanoasetuksia REPLACE_1_PROJNAMElle</translation>
+        <source>Modify configuration options for Ensocoin</source>
+        <translation>Muokkaa kokoonpanoasetuksia Ensocoinlle</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,8 +430,8 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Näytä REPLACE_1_PROJNAME ohjeet saadaksesi listan mahdollisista Bitcoinin komentorivivalinnoista</translation>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Näytä Ensocoin ohjeet saadaksesi listan mahdollisista Bitcoinin komentorivivalinnoista</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -855,7 +855,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>
@@ -867,8 +867,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
-        <translation>Tietoja REPLACE_1_PROJNAME</translation>
+        <source>About Ensocoin</source>
+        <translation>Tietoja Ensocoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -918,16 +918,16 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
-        <translation>Tervetuloa REPLACE_1_PROJNAME</translation>
+        <source>Welcome to Ensocoin.</source>
+        <translation>Tervetuloa Ensocoin</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
-        <translation>Tämän on ensimmäinen kerta kun REPLACE_1_PROJNAME on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun Ensocoin on käynnistetty joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>REPLACE_1_PROJNAME lataa ja tallentaa kopion Bitcoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ensocoin lataa ja tallentaa kopion Bitcoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -938,7 +938,7 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>
@@ -1020,8 +1020,8 @@
         <translation>Minimoi ikkuna ohjelman sulkemisen sijasta kun ikkuna suljetaan. Kun tämä asetus on käytössä, ohjelma suljetaan vain valittaessa valikosta Poistu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting REPLACE_1_PROJNAME.</source>
-        <translation>Käyttöliittymän kieli voidaan asettaa tässä. Tämä asetus tulee käyttöön vasta kun REPLACE_1_PROJNAME käynnistetään uudelleen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ensocoin.</source>
+        <translation>Käyttöliittymän kieli voidaan asettaa tässä. Tämä asetus tulee käyttöön vasta kun Ensocoin käynnistetään uudelleen.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1048,12 +1048,12 @@
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>Automatically start REPLACE_1_PROJNAME after logging in to the system.</source>
-        <translation>Käynnistä REPLACE_1_PROJNAME automaattisesti järjestelmään kirjautumisen jälkeen.</translation>
+        <source>Automatically start Ensocoin after logging in to the system.</source>
+        <translation>Käynnistä Ensocoin automaattisesti järjestelmään kirjautumisen jälkeen.</translation>
     </message>
     <message>
-        <source>&amp;Start REPLACE_1_PROJNAME on system login</source>
-        <translation>&amp;Käynnistä REPLACE_1_PROJNAME järjestelmään kirjautuessa</translation>
+        <source>&amp;Start Ensocoin on system login</source>
+        <translation>&amp;Käynnistä Ensocoin järjestelmään kirjautuessa</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1518,8 +1518,8 @@
         <translation>Muistin käyttö</translation>
     </message>
     <message>
-        <source>Open the REPLACE_1_PROJNAME debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa REPLACE_1_PROJNAMEn debug-loki tämänhetkisestä datahakemistosta. Tämä voi viedä muutaman sekunnin suurille lokitiedostoille.</translation>
+        <source>Open the Ensocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Ensocoinn debug-loki tämänhetkisestä datahakemistosta. Tämä voi viedä muutaman sekunnin suurille lokitiedostoille.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1678,8 +1678,8 @@
         <translation>&amp;Poista solmukohdan esto</translation>
     </message>
     <message>
-        <source>Welcome to the REPLACE_1_PROJNAME RPC console.</source>
-        <translation>Tervetuloa REPLACE_1_PROJNAMEn RPC-konsoliin.</translation>
+        <source>Welcome to the Ensocoin RPC console.</source>
+        <translation>Tervetuloa Ensocoinn RPC-konsoliin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2252,7 +2252,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
+        <source>Ensocoin is shutting down...</source>
         <translation>Bitcoin core sulkeutuu...</translation>
     </message>
     <message>
@@ -2394,12 +2394,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
-        <translation>REPLACE_1_PROJNAME kehittäjät</translation>
+        <source>The Ensocoin developers</source>
+        <translation>Ensocoin kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2944,8 +2944,8 @@
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. REPLACE_1_PROJNAME on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. Ensocoin is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. Ensocoin on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3104,8 +3104,8 @@
         <translation>Salli JSON-RPC-yhteydet määritetystä lähteestä. Kelvolliset arvot &lt;ip&gt; ovat yksittäinen IP (esim. 1.2.3.4), verkko/verkkomaski (esim. 1.2.3.4/255.255.255.0) tai verkko/luokaton reititys (esim. 1.2.3.4/24). Tätä valintatapaa voidaan käyttää useita kertoja</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>Ei voida lukita data-hakemistoa %s. REPLACE_1_PROJNAME on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. Ensocoin is probably already running.</source>
+        <translation>Ei voida lukita data-hakemistoa %s. Ensocoin on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3144,11 +3144,11 @@
         <translation>Yhdistä SOCKS5 proxin kautta</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The REPLACE_1_PROJNAME Developers</source>
+        <source>Copyright (C) 2009-%i The Ensocoin Developers</source>
         <translation>Copyright (C) 2009-%i  Bitcoin kehittäjät</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of REPLACE_1_PROJNAME</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ensocoin</source>
         <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Bitcoinista</translation>
     </message>
     <message>
@@ -3248,7 +3248,7 @@
         <translation>Käyttäjätunnus JSON-RPC-yhteyksille</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart REPLACE_1_PROJNAME to complete</source>
+        <source>Wallet needed to be rewritten: restart Ensocoin to complete</source>
         <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Bitcoin uudelleen</translation>
     </message>
     <message>

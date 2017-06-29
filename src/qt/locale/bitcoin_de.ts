@@ -160,7 +160,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie Ihre Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre Bitcoins verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>REPLACE_1_PROJNAME wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Vergessen Sie nicht, dass eine Wallet-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Bitcoins durch Schadsoftware schützen kann, die Ihren Computer infiziert.</translation>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Ensocoin wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Vergessen Sie nicht, dass eine Wallet-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Bitcoins durch Schadsoftware schützen kann, die Ihren Computer infiziert.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -306,8 +306,8 @@
         <translation>&amp;URI öffnen...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
-        <translation>"REPLACE_1_PROJNAME"-Client</translation>
+        <source>Ensocoin client</source>
+        <translation>"Ensocoin"-Client</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Empfangen</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
-        <translation>Informationen über REPLACE_1_PROJNAME anzeigen</translation>
+        <source>Show information about Ensocoin</source>
+        <translation>Informationen über Ensocoin anzeigen</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -398,20 +398,20 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Zahlungen anfordern (erzeugt QR-Codes und "bitcoin:"-URIs)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
-        <translation>&amp;Über REPLACE_1_PROJNAME</translation>
+        <source>&amp;About Ensocoin</source>
+        <translation>&amp;Über Ensocoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
-        <translation>Konfiguration von REPLACE_1_PROJNAME bearbeiten</translation>
+        <source>Modify configuration options for Ensocoin</source>
+        <translation>Konfiguration von Ensocoin bearbeiten</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,8 +430,8 @@
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Zeige den "REPLACE_1_PROJNAME"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Zeige den "Ensocoin"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -855,8 +855,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -867,8 +867,8 @@
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
-        <translation>Über REPLACE_1_PROJNAME</translation>
+        <source>About Ensocoin</source>
+        <translation>Über Ensocoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -918,16 +918,16 @@
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
-        <translation>Willkommen zu REPLACE_1_PROJNAME.</translation>
+        <source>Welcome to Ensocoin.</source>
+        <translation>Willkommen zu Ensocoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
-        <translation>Da Sie das Programm gerade zum ersten Mal starten, können Sie nun auswählen wo REPLACE_1_PROJNAME seine Daten ablegen soll.</translation>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
+        <translation>Da Sie das Programm gerade zum ersten Mal starten, können Sie nun auswählen wo Ensocoin seine Daten ablegen soll.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>REPLACE_1_PROJNAME wird eine Kopie der Blockkette herunterladen und speichern. Mindestens %1GB Daten werden in diesem Verzeichnis abgelegt und die Datenmenge wächst über die Zeit an. Auch die Wallet wird in diesem Verzeichnis abgelegt.</translation>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ensocoin wird eine Kopie der Blockkette herunterladen und speichern. Mindestens %1GB Daten werden in diesem Verzeichnis abgelegt und die Datenmenge wächst über die Zeit an. Auch die Wallet wird in diesem Verzeichnis abgelegt.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -938,8 +938,8 @@
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1020,8 +1020,8 @@
         <translation>Minimiert die Anwendung anstatt sie zu beenden wenn das Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie die Anwendung über "Beenden" im Menü schließen.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting REPLACE_1_PROJNAME.</source>
-        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von REPLACE_1_PROJNAME aktiv.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ensocoin.</source>
+        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von Ensocoin aktiv.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1048,12 +1048,12 @@
         <translation>&amp;Netzwerk</translation>
     </message>
     <message>
-        <source>Automatically start REPLACE_1_PROJNAME after logging in to the system.</source>
-        <translation>REPLACE_1_PROJNAME nach der Anmeldung am System automatisch starten.</translation>
+        <source>Automatically start Ensocoin after logging in to the system.</source>
+        <translation>Ensocoin nach der Anmeldung am System automatisch starten.</translation>
     </message>
     <message>
-        <source>&amp;Start REPLACE_1_PROJNAME on system login</source>
-        <translation>&amp;REPLACE_1_PROJNAME nach Systemanmeldung starten</translation>
+        <source>&amp;Start Ensocoin on system login</source>
+        <translation>&amp;Ensocoin nach Systemanmeldung starten</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1518,8 +1518,8 @@
         <translation>Speichernutzung</translation>
     </message>
     <message>
-        <source>Open the REPLACE_1_PROJNAME debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffnet die "REPLACE_1_PROJNAME"-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the Ensocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffnet die "Ensocoin"-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1678,8 +1678,8 @@
         <translation>&amp;Node entsperren</translation>
     </message>
     <message>
-        <source>Welcome to the REPLACE_1_PROJNAME RPC console.</source>
-        <translation>Willkommen in der "REPLACE_1_PROJNAME"-RPC-Konsole.</translation>
+        <source>Welcome to the Ensocoin RPC console.</source>
+        <translation>Willkommen in der "Ensocoin"-RPC-Konsole.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2264,8 +2264,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
-        <translation>REPLACE_1_PROJNAME wird beendet...</translation>
+        <source>Ensocoin is shutting down...</source>
+        <translation>Ensocoin wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2414,12 +2414,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
-        <translation>Die "REPLACE_1_PROJNAME"-Entwickler</translation>
+        <source>The Ensocoin developers</source>
+        <translation>Die "Ensocoin"-Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2936,8 +2936,8 @@
         <translation>Maximale Gesamtgebühr (in %s) in einer Börsentransaktion; wird dies zu niedrig gesetzten können große Transaktionen abgebrochen werden (Standard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong REPLACE_1_PROJNAME will not work properly.</source>
-        <translation>Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da REPLACE_1_PROJNAME ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Ensocoin will not work properly.</source>
+        <translation>Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da Ensocoin ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3000,8 +3000,8 @@
         <translation>Dies ist eine Vorab-Testversion - Verwendung auf eigene Gefahr - nicht für Mining- oder Handelsanwendungen nutzen!</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>Kann auf diesem Computer nicht an %s binden, da REPLACE_1_PROJNAME wahrscheinlich bereits gestartet wurde.</translation>
+        <source>Unable to bind to %s on this computer. Ensocoin is probably already running.</source>
+        <translation>Kann auf diesem Computer nicht an %s binden, da Ensocoin wahrscheinlich bereits gestartet wurde.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3208,8 +3208,8 @@
         <translation>An die angegebene Adresse binden und nach eingehenden JSON-RPC-Verbindungen abhören. Für IPv6 "[Host]:Port"-Notation verwenden. Kann mehrmals angegeben werden. (Standard: an alle Schnittstellen binden)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>Datenverzeichnis %s kann nicht gesperrt werden, da REPLACE_1_PROJNAME wahrscheinlich bereits gestartet wurde.</translation>
+        <source>Cannot obtain a lock on data directory %s. Ensocoin is probably already running.</source>
+        <translation>Datenverzeichnis %s kann nicht gesperrt werden, da Ensocoin wahrscheinlich bereits gestartet wurde.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3308,12 +3308,12 @@
         <translation>Über einen SOCKS5-Proxy &amp;verbinden</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The REPLACE_1_PROJNAME Developers</source>
-        <translation>Urheberrecht (C) 2009-%i Die "REPLACE_1_PROJNAME"-Entwickler</translation>
+        <source>Copyright (C) 2009-%i The Ensocoin Developers</source>
+        <translation>Urheberrecht (C) 2009-%i Die "Ensocoin"-Entwickler</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of REPLACE_1_PROJNAME</source>
-        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von REPLACE_1_PROJNAME</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ensocoin</source>
+        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von Ensocoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3328,8 +3328,8 @@
         <translation>Hinweis</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. REPLACE_1_PROJNAME is shutting down.</source>
-        <translation>Initialisierungsplausibilitätsprüfung fehlgeschlagen. REPLACE_1_PROJNAME wird beendet.</translation>
+        <source>Initialization sanity check failed. Ensocoin is shutting down.</source>
+        <translation>Initialisierungsplausibilitätsprüfung fehlgeschlagen. Ensocoin wird beendet.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3448,8 +3448,8 @@
         <translation>Benutzername für JSON-RPC-Verbindungen</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart REPLACE_1_PROJNAME to complete</source>
-        <translation>Wallet musste neu geschrieben werden: starten Sie REPLACE_1_PROJNAME zur Fertigstellung neu</translation>
+        <source>Wallet needed to be rewritten: restart Ensocoin to complete</source>
+        <translation>Wallet musste neu geschrieben werden: starten Sie Ensocoin zur Fertigstellung neu</translation>
     </message>
     <message>
         <source>Warning</source>

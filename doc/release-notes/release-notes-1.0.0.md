@@ -1,13 +1,13 @@
-Release Notes for REPLACE_1_PROJNAME_MD v1.0.0
+Release Notes for Ensocoin v1.0.0
 ==========================================
 
-REPLACE_1_PROJNAME_MD version 1.0.0 is now available from:
+Ensocoin version 1.0.0 is now available from:
 
-  <https://REPLACE_1_LINK/download>
+  <https://ensocoin.org/download>
 
 Please report bugs using the issue tracker at github:
 
-  <https://REPLACE_3_LINK/issues>
+  <https://lab.axioma.lv/axioma/BitcoinUnlimited/issues>
 
 The third official BU client release reflects our opinion that Bitcoin full-node
 software has reached a milestone of functionality, stability and scalability.
@@ -18,11 +18,11 @@ The most important feature of BU's first general release is functionality to
 restore market dynamics at the discretion of the full-node network. Activation
 will result in eliminating the full-blocks handicap, restoring a healthy
 fee-market, allow reliable confirmation times, fair user fees, and re-igniting
-stalled network effect growth, based on REPLACE_1_PROJNAME_MD's Emergent Consensus
+stalled network effect growth, based on Ensocoin's Emergent Consensus
 model to let the ecosystem decide the best values of parameters like the maximum
 block size.
 
-REPLACE_1_PROJNAME_MD open-source version 1.0.0 contains a large number of changes,
+Ensocoin open-source version 1.0.0 contains a large number of changes,
 updates and improvements. Some optimize the Emergent Consensus logic (EC),
 others improve the system in a more general way, and a number of updates are
 imported from the open source work of the Bitcoin Core developers who deserve
@@ -62,7 +62,7 @@ Depth is increased to 12. This value is the result of analysis and simulation.
 Note that due to variation in node settings only a subset of nodes will be in
 an SG situation at any one time.
 
-REPLACE_1_PROJNAME_MD recommends miners and commercial node users set their
+Ensocoin recommends miners and commercial node users set their
 Accepted Depth parameter to the value of 12.
 
 Further information:
@@ -100,7 +100,7 @@ will be network-wide for many years, if ever.
 Attention: It is recommended to use the defaults.
 
 Further information:
-- [Github Repository PR#164](https://REPLACE_3_LINK/pull/164)
+- [Github Repository PR#164](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/164)
 - [Discussion and Vote on BUIP40](https://bitco.in/forum/threads/buip040-passed-emergent-consensus-parameters-and-defaults-for-large-1mb-blocks.1643/)
 
 Removal of the 32 MB message limit
@@ -120,11 +120,11 @@ Wide-spectrum Anti-DoS improvements
 
 Network traffic represents a grey-scale of useful activity. Some helps the
 network to synchronize, while some is for surveillance and deliberate wastage.
-REPLACE_1_PROJNAME_MD differentiates useful and less useful data between nodes.
+Ensocoin differentiates useful and less useful data between nodes.
 
 Useful data is primarily valid transactions and blocks, invitations for required
 data, and handshake messages.  Not useful data are typically from from spam or
-spy nodes, From version 1.0.0, REPLACE_1_PROJNAME_MD Nodes track if peers supply
+spy nodes, From version 1.0.0, Ensocoin Nodes track if peers supply
 useful data.
 
 1) All traffic is tracked by byte count, per connection, so the "usefulness" of
@@ -148,12 +148,12 @@ approaches keeps BU connection slots available for useful nodes and also for the
 bit-nodes crawlers that want to find the node counts.
 
 Further information:
-- [GitHub #PR 62](https://REPLACE_3_LINK/pull/62)
+- [GitHub #PR 62](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/62)
 
 Request Manager extensions
 --------------------------
 
-REPLACE_1_PROJNAME_MD uses a Request Manager that tracks source nodes for blocks and
+Ensocoin uses a Request Manager that tracks source nodes for blocks and
 transactions. If a request is filled slowly, it reissues the same request to a
 different source instead of just waiting and eventually timing out. The Request
 Manager was introduced to stabilize Xthin block propagation, but is generally
@@ -172,13 +172,13 @@ Initial Blockchain Download (IBD). It eliminates slowdowns and hung connections
 which occasionally happen when the request for blocks receives a slow response.
 
 Further information:
-- [GitHub PR #79](https://REPLACE_3_LINK/pull/79)
-- [GitHub PR #229](https://REPLACE_3_LINK/pull/229)
+- [GitHub PR #79](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/79)
+- [GitHub PR #229](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/229)
 
 Xthin block propagation optimizations
 -------------------------------------
 
-Based on many months of live traffic observation, REPLACE_1_PROJNAME_MD implemented
+Based on many months of live traffic observation, Ensocoin implemented
 several general optimizations of the block propagation with Xthin. As tests have
 shown, this enables some nodes to operate with zero missing transactions in a
 24-hour period and thus achieves extremely efficient use of bandwidth resources
@@ -186,11 +186,11 @@ and minimal latency in block propagation.
 
 
 Further information:
-- [GitHub PR #131](https://REPLACE_3_LINK/pull/131)
-- [GitHub PR #173](https://REPLACE_3_LINK/pull/173)
-- [GitHub PR #174](https://REPLACE_3_LINK/pull/174)
-- [GitHub PR #176](https://REPLACE_3_LINK/pull/176)
-- [GitHub PR #191](https://REPLACE_3_LINK/pull/191)
+- [GitHub PR #131](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/131)
+- [GitHub PR #173](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/173)
+- [GitHub PR #174](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/174)
+- [GitHub PR #176](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/176)
+- [GitHub PR #191](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/191)
 
 Mempool Management
 ==================
@@ -216,8 +216,8 @@ after 72 hours. This not only improves node operation, but the synchronization
 of mempool data improves Xthin efficiency.
 
 Further information:
-- [GitHub PR #42](https://REPLACE_3_LINK/pull/42)
-- [GitHub PR #100](https://REPLACE_3_LINK/pull/100)
+- [GitHub PR #42](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/42)
+- [GitHub PR #100](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/100)
 
 Configuration
 =============
@@ -226,7 +226,7 @@ Command Tweaks
 --------------
 
 To allow a better organization of parameters in the command line or the
-bitcoin.conf, REPLACE_1_PROJNAME_MD introduces a new format using the dot notation.
+bitcoin.conf, Ensocoin introduces a new format using the dot notation.
 For example, to manage connections users can now specify "net.maxConnections" or
 "net.maxOutboundConnections".
 
@@ -245,13 +245,13 @@ DNS-Seed
 Whenever a new node starts, it needs to find its peers. Usually this is done by
 a DNS seed, which crawls the networks and builds a random list of other nodes to
 which the new node can connect to. Currently there are DNS seeds from bluematt,
-luke-jr, sipa, 21 and others. REPLACE_1_PROJNAME_MD aims to create its own DNS seed
+luke-jr, sipa, 21 and others. Ensocoin aims to create its own DNS seed
 capable of special requirements such as supporting the service bit of XTHIN. By
-adopting and adjusting Sipa's code for a DNS seed REPLACE_1_PROJNAME_MD fixed a
+adopting and adjusting Sipa's code for a DNS seed Ensocoin fixed a
 minor bug.
 
-The DNS Seed of REPLACE_1_PROJNAME_MD is currently activated on the NOL (No Limit)
-Net, the testnet for REPLACE_1_PROJNAME_MD's Emergent Consensus. It is expected to
+The DNS Seed of Ensocoin is currently activated on the NOL (No Limit)
+Net, the testnet for Ensocoin's Emergent Consensus. It is expected to
 go live on the mainnet soon.
 
 Further information:
@@ -271,12 +271,12 @@ Sometimes the program wants to free memory which was used for global variables,
 while the memory is already free. This can result in the so called SegFault, a
 common bug of several C written programs. The cause for this bug is a
 mis-organisation of the destruction order used during the shutdown. By
-reorganizing global variables in a single file REPLACE_1_PROJNAME_MD fixed the
+reorganizing global variables in a single file Ensocoin fixed the
 destruction order and eliminates this bug. This is especially helpful for
 running bitcoind test suite.
 
 Further information:
-- [GitHub PR #67](https://REPLACE_3_LINK/pull/67)
+- [GitHub PR #67](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/67)
 
 Lock order checking in debug mode
 ---------------------------------
@@ -295,7 +295,7 @@ ARM architecture
 Version 1.0.0 has gitian support of deterministic builds for the ARM
 architecture. This supplements Windows, iOS and Linux x86, which were previously
 offered. This was backported from the Bitcoin Core project and adjusted for the
-REPLACE_1_PROJNAME_MD environment.
+Ensocoin environment.
 
 
 Imported Commits
@@ -311,7 +311,7 @@ and Core might disagree on some concepts and this disagreement sometimes
 dominates the public debates, both teams share the goal of an ongoing
 improvement of the codebase.
 
-REPLACE_1_PROJNAME_MD has therefore cherry-picked a number of Bitcoin Core 0.13.x
+Ensocoin has therefore cherry-picked a number of Bitcoin Core 0.13.x
 updates and upgrades which align with BU's onchain-scaling and wider goals to
 advance Bitcoin. We would like to thank developers Cory Fields, Jonas
 Schnelli, Marco Falke, Michael Ford, Patrick Strateman, Pieter Wuille, Russel

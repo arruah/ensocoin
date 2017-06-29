@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// REPLACE_1_COPYRIGHT
+// Copyright (c) 2015-2017 The Bitcoin Unlimited developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -227,7 +227,7 @@ public:
         // BITCOINUNLIMITED START
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("REPLACE_1_LINK", "nolnet-seed.REPLACE_1_LINK", true));
+        vSeeds.push_back(CDNSSeedData("ensocoin.org", "nolnet-seed.ensocoin.org", true));
         //vSeeds.push_back(CDNSSeedData("bitnodes.io", "seed.bitnodes.io"));      // Bitnodes (Addy Yeow)
         //vSeeds.push_back(CDNSSeedData("bitcoin.sipa.be", "seed.bitcoin.sipa.be")); // Pieter Wuille
         // BITCOINUNLIMITED END

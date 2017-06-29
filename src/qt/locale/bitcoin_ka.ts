@@ -152,7 +152,7 @@
         <translation>დაადასტურეთ საფულის დაშიფრვა</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>ყურადღება: საფულის დაშიფრვის შემდეგ თუ თქვენ დაკარგავთ ფრაზა-პაროლს,  &lt;b&gt;ყველა ბიტქოინი დაგეკარგებათ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -362,16 +362,16 @@
         <translation>ბარათების პანელი</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და bitcoin: ბმულები)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME-ს შეს&amp;ახებ</translation>
+        <source>&amp;About Ensocoin</source>
+        <translation>Ensocoin-ს შეს&amp;ახებ</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -390,8 +390,8 @@
         <translation>საკომანდო სტრიქონის ოპ&amp;ციები</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
-        <translation>REPLACE_1_PROJNAME-ს დახმარების ჩვენება Bitcoin-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Ensocoin-ს დახმარების ჩვენება Bitcoin-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -725,16 +725,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>version</source>
         <translation>ვერსია</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME-ს შესახებ</translation>
+        <source>About Ensocoin</source>
+        <translation>Ensocoin-ს შესახებ</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -756,16 +756,16 @@
         <translation>მოგესალმებით</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
-        <translation>მოგესალმებათ REPLACE_1_PROJNAME.</translation>
+        <source>Welcome to Ensocoin.</source>
+        <translation>მოგესალმებათ Ensocoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
-        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები REPLACE_1_PROJNAME-მ.</translation>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
+        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები Ensocoin-მ.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>REPLACE_1_PROJNAME გადმოტვირთავს და შეინახავს Bitcoin-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა %1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Ensocoin გადმოტვირთავს და შეინახავს Bitcoin-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა %1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -776,8 +776,8 @@
         <translation>მითითებული კატალოგის გამოყენება:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1614,8 +1614,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
-        <translation>REPLACE_1_PROJNAME იხურება...</translation>
+        <source>Ensocoin is shutting down...</source>
+        <translation>Ensocoin იხურება...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1748,12 +1748,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
-        <translation>REPLACE_1_PROJNAME-ს ავტორები</translation>
+        <source>The Ensocoin developers</source>
+        <translation>Ensocoin-ს ავტორები</translation>
     </message>
     <message>
         <source>[testnet]</source>

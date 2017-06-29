@@ -1,11 +1,11 @@
-[Website](www.REPLACE_1_LINK)  | [Download](www.REPLACE_1_LINK/download) | [Setup](doc/README.md)  |  [Xthin](bu-xthin.md)  |  [Xpedited](bu-xpedited-forwarding.md)  |   [Miner](miner.md)
+[Website](www.ensocoin.org)  | [Download](www.ensocoin.org/download) | [Setup](doc/README.md)  |  [Xthin](bu-xthin.md)  |  [Xpedited](bu-xpedited-forwarding.md)  |   [Miner](miner.md)
 
-Using REPLACE_1_PROJNAME_MD for Mining
+Using Ensocoin for Mining
 ==================================
 
-REPLACE_1_PROJNAME_MD is based on the Satoshi codebase, so it is a drop in replacement for your mining pool software.  Simply configure your pool to point to the REPLACE_1_PROJNAME_MD daemon, in the exact same manner you would for the Bitcoin Core daemon.
+Ensocoin is based on the Satoshi codebase, so it is a drop in replacement for your mining pool software.  Simply configure your pool to point to the Ensocoin daemon, in the exact same manner you would for the Bitcoin Core daemon.
 
-But REPLACE_1_PROJNAME_MD has specific features to facilitate mining.
+But Ensocoin has specific features to facilitate mining.
 
 
 Setting your excessive block size and accept depth
@@ -13,7 +13,7 @@ Setting your excessive block size and accept depth
 
 Blocks larger than the excessive block size will be ignored until "accept depth" (see next section) blocks are  built upon them.  This allows miners to discourage blocks that they feel are excessively large, but to ultimately accept them if it looks like the majority of the network is accepting this size.  You can learn more about these parameters [here](https://medium.com/@peter_r/the-excessive-block-gate-how-a-bitcoin-unlimited-node-deals-with-large-blocks-22a4a5c322d4#.bhkz538kw), and a miner's opinion on how they should be set [here](https://medium.com/@ViaBTC/miner-guide-how-to-safely-hard-fork-to-bitcoin-unlimited-8ac1570dc1a8#.zdklfb67p).
 
-To change the largest block that REPLACE_1_PROJNAME_MD will generate, run:
+To change the largest block that Ensocoin will generate, run:
 ```sh
 bitcoin-cli setexcessiveblock blockSize acceptDepth
 ```
@@ -50,7 +50,7 @@ $ bitcoin-cli getexcessiveblock
 Setting your subversion string (spoofing the user agent)
 --------------------------------------------------------
 
-To hide that this is a REPLACE_1_PROJNAME_MD node, set the "net.subversionOverride" to a string of your choice, in the bitcoin.conf file or using ./bitcoin-cli:
+To hide that this is a Ensocoin node, set the "net.subversionOverride" to a string of your choice, in the bitcoin.conf file or using ./bitcoin-cli:
 
 ```sh
  bitcoin-cli set net.subversionOverride="Your Choice Here"
@@ -70,10 +70,10 @@ To change this field in bitcoin.conf or on the command line, use:
 Setting your maximum mined block
 --------------------------------
 
-By default, the maximum block that REPLACE_1_PROJNAME_MD will mine is 1MB (compatible with Bitcoin Core).
+By default, the maximum block that Ensocoin will mine is 1MB (compatible with Bitcoin Core).
 You may want to increase this block size if the bitcoin network as a whole is willing to mine larger blocks, or you may want to decrease this size if you feel that the demands on the network is exceeding capacity.
 
-To change the largest block that REPLACE_1_PROJNAME_MD will generate, run:
+To change the largest block that Ensocoin will generate, run:
 ```sh
 bitcoin-cli setminingmaxblock blocksize
 ```
@@ -133,7 +133,7 @@ Here is an easy conversion in Linux: python -c "print '%d' % 0x30000000"
 Setting your block retry intervals
 ----------------------------------
 
-REPLACE_1_PROJNAME_MD tracks multiple sources for data an can rapidly request blocks or transactions from other sources if one source does not deliver the requested data.
+Ensocoin tracks multiple sources for data an can rapidly request blocks or transactions from other sources if one source does not deliver the requested data.
 To change the retry rate, set it in microseconds in your bitcoin.conf:
 
 Transaction retry interval:
@@ -167,13 +167,13 @@ To show the current string:
 bitcoin-cli getminercomment
 ```
 
- - WARNING: some mining software and pools also add to the coinbase string and do not validate the total string length (it must be < 100 bytes).  This can cause the mining pool to generate invalid blocks.  Please ensure that your mining pool software validates total string length, or keep the string you add to REPLACE_1_PROJNAME_MD short.
+ - WARNING: some mining software and pools also add to the coinbase string and do not validate the total string length (it must be < 100 bytes).  This can cause the mining pool to generate invalid blocks.  Please ensure that your mining pool software validates total string length, or keep the string you add to Ensocoin short.
 
 
 Filling a new node's transaction memory pool
 ---------------------------------------------
 
-When you restart bitcoind, the memory pool starts empty.  If a block is found quickly, this could result in an block with few transactions.  It is possible to "prime" a new instance of bitcoind with the memory pool of a different REPLACE_1_PROJNAME_MD node.  To do so, go to the CLI on the node that has a full mempool, connect to your new node, and push the transactions to it.
+When you restart bitcoind, the memory pool starts empty.  If a block is found quickly, this could result in an block with few transactions.  It is possible to "prime" a new instance of bitcoind with the memory pool of a different Ensocoin node.  To do so, go to the CLI on the node that has a full mempool, connect to your new node, and push the transactions to it.
 
 ```sh
 `bitcoin-cli addnode <new node's IP:port> onetry`

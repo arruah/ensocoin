@@ -160,7 +160,7 @@
         <translation>Berretsi zorroaren enkriptazioa</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Abisua: Zuk enkriptatzen baduzu zure diruzorroa eta zure pasahitza galtzen baduzu, &lt;b&gt;BITCOIN GUZTIAK GALDUKO DITUZU&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Seguru zaude nahi duzula zure diruzorroa enkriptatu?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>REPLACE_1_PROJNAME orain itxiko da enkriptazio prozezua amaitzeko. Gogoratu enkriptatzean zure diruzorroa ez duzula guztiz babesten zure Bitcoinak lapurretatik infektatzen zure ordenagailua Malwareekin.</translation>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Ensocoin orain itxiko da enkriptazio prozezua amaitzeko. Gogoratu enkriptatzean zure diruzorroa ez duzula guztiz babesten zure Bitcoinak lapurretatik infektatzen zure ordenagailua Malwareekin.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>

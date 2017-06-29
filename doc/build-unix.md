@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build REPLACE_1_PROJNAME_MD in Unix.
+Some notes on how to build Ensocoin in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
 
@@ -54,7 +54,7 @@ System requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
-memory available when compiling REPLACE_1_PROJNAME_MD. With 512MB of memory or less
+memory available when compiling Ensocoin. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -85,7 +85,7 @@ BerkeleyDB 5.1 or later, which break binary wallet compatibility with the distri
 are based on BerkeleyDB 4.8. If you do not care about wallet compatibility,
 pass `--with-incompatible-bdb` to configure.
 
-See the section "Disable-wallet mode" to build REPLACE_1_PROJNAME_MD without wallet.
+See the section "Disable-wallet mode" to build Ensocoin without wallet.
 
 Optional:
 
@@ -159,7 +159,7 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure REPLACE_1_PROJNAME_MD to use our own-built instance of BDB
+# Configure Ensocoin to use our own-built instance of BDB
 cd $BITCOIN_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
@@ -250,7 +250,7 @@ If you want to build statically linked binaries so that you could compile in one
 and deploy in same parch/platform boxes without the need of installing all the dependencies
 just follow these steps:
 
-    git clone https://REPLACE_2_LINK BU
+    git clone https://lab.axioma.lv/axioma/BitcoinUnlimited.git BU
     cd BU/depends
     make HOST=x86_64-pc-linux-gnu NO_QT=1 -j4
     cd ..

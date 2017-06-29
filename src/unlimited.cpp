@@ -207,7 +207,7 @@ void UpdateRecvStats(CNode* pfrom, const std::string& strCommand, int msgSize, i
 std::string UnlimitedCmdLineHelp()
 {
     std::string strUsage;
-    strUsage += HelpMessageGroup(_("REPLACE_1_PROJNAME Options:"));
+    strUsage += HelpMessageGroup(_("Ensocoin Options:"));
     strUsage += HelpMessageOpt("-blockversion=<n>", _("Generated block version number.  Value must be an integer"));
     strUsage += HelpMessageOpt("-excessiveblocksize=<n>", _("Blocks above this size in bytes are considered excessive"));
     strUsage += HelpMessageOpt("-excessiveacceptdepth=<n>", _("Excessive blocks are accepted anyway if this many blocks are mined on top of them"));
@@ -527,7 +527,7 @@ extern void UnlimitedLogBlock(const CBlock& block, const std::string& hash, uint
 
 std::string LicenseInfo()
 {
-    return FormatParagraph(strprintf(_("Copyright (C) 2015-%i The REPLACE_1_PROJNAME Developers"), COPYRIGHT_YEAR)) + "\n\n" +
+    return FormatParagraph(strprintf(_("Copyright (C) 2015-%i The Ensocoin Developers"), COPYRIGHT_YEAR)) + "\n\n" +
            FormatParagraph(strprintf(_("Portions Copyright (C) 2009-%i The Bitcoin Core Developers"), COPYRIGHT_YEAR)) + "\n\n" +
            FormatParagraph(strprintf(_("Portions Copyright (C) 2014-%i The Bitcoin XT Developers"), COPYRIGHT_YEAR)) + "\n\n" +
            "\n" +
@@ -625,7 +625,7 @@ extern UniValue getminercomment(const UniValue& params, bool fHelp)
   if (fHelp || params.size() != 0)
         throw runtime_error(
             "getminercomment\n"
-            "\nReturn the comment that will be put into each mined block's coinbase\n transaction after the REPLACE_1_PROJNAME parameters."
+            "\nReturn the comment that will be put into each mined block's coinbase\n transaction after the Ensocoin parameters."
             "\nResult\n"
             "  minerComment (string) miner comment\n"
             "\nExamples:\n" +
@@ -639,7 +639,7 @@ extern UniValue setminercomment(const UniValue& params, bool fHelp)
   if (fHelp || params.size() != 1)
         throw runtime_error(
             "setminercomment\n"
-            "\nSet the comment that will be put into each mined block's coinbase\n transaction after the REPLACE_1_PROJNAME parameters.\n Comments that are too long will be truncated."
+            "\nSet the comment that will be put into each mined block's coinbase\n transaction after the Ensocoin parameters.\n Comments that are too long will be truncated."
             "\nExamples:\n" +
             HelpExampleCli("setminercomment", "\"bitcoin is fundamentally emergent consensus\"") + HelpExampleRpc("setminercomment", "\"bitcoin is fundamentally emergent consensus\""));
 

@@ -160,7 +160,7 @@
         <translation>Patvirtinkite piniginės užšifravimą</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO BITCOINUS&lt;/b&gt;! </translation>
     </message>
     <message>
@@ -286,8 +286,8 @@
         <translation>Atidaryti &amp;URI...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
-        <translation>REPLACE_1_PROJNAME klientas</translation>
+        <source>Ensocoin client</source>
+        <translation>Ensocoin klientas</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -338,8 +338,8 @@
         <translation>&amp;Gauti</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
-        <translation>Rodyti informaciją apie REPLACE_1_PROJNAME</translation>
+        <source>Show information about Ensocoin</source>
+        <translation>Rodyti informaciją apie Ensocoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -370,12 +370,12 @@
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
-        <translation>&amp;Apie REPLACE_1_PROJNAME</translation>
+        <source>&amp;About Ensocoin</source>
+        <translation>&amp;Apie Ensocoin</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -637,7 +637,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
@@ -645,8 +645,8 @@
         <translation>versija</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
-        <translation>Apie REPLACE_1_PROJNAME</translation>
+        <source>About Ensocoin</source>
+        <translation>Apie Ensocoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -668,11 +668,11 @@
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
-        <translation>Sveiki atvykę į REPLACE_1_PROJNAME.</translation>
+        <source>Welcome to Ensocoin.</source>
+        <translation>Sveiki atvykę į Ensocoin.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>
@@ -1360,7 +1360,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin branduolys</translation>
     </message>
     <message>

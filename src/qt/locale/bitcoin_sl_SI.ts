@@ -160,7 +160,7 @@
         <translation>Potrditev šifriranja denarnice</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE BITCOINE V DENARNICI&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Ali ste prepričani, da želite šifrirati vašo denarnico?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Program se bo zaprl, da dokonča proces šifriranja. Zapomnite si, da šifriranje ne more popolnoma zaščititi vaše denarnice pred krajami in zlonamernimi programi, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
@@ -298,8 +298,8 @@
         <translation>Odpri &amp;URI ...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
-        <translation>Odjemalec REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin client</source>
+        <translation>Odjemalec Ensocoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -350,7 +350,7 @@
         <translation>P&amp;rejmi</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
+        <source>Show information about Ensocoin</source>
         <translation>Oglejte si informacije o programu</translation>
     </message>
     <message>
@@ -390,19 +390,19 @@
         <translation>Orodna vrstica zavihkov</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa bitcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>&amp;O programu</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
+        <source>Modify configuration options for Ensocoin</source>
         <translation>Spremenite programske nastavitve</translation>
     </message>
     <message>
@@ -422,7 +422,7 @@
         <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
         <translation>Oglejte si seznam in kratek opis vseh opcij pri zagonu programa iz ukazne vrstice</translation>
     </message>
     <message numerus="yes">
@@ -847,8 +847,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -859,8 +859,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
-        <translation>O programu REPLACE_1_PROJNAME</translation>
+        <source>About Ensocoin</source>
+        <translation>O programu Ensocoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -882,15 +882,15 @@
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
-        <translation>Dobrodošli v programu REPLACE_1_PROJNAME.</translation>
+        <source>Welcome to Ensocoin.</source>
+        <translation>Dobrodošli v programu Ensocoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
         <translation>To je prvi zagon programa, zato lahko izberete mapo, v katero bo program shranjeval podatke.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Program bo prenesel in shranil kopijo verige blokov. V izbrani podatkovni mapi bo shranjenih vsaj %1 GiB podatkov, ta količina pa bo sčasoma še naraščala. V tej mapi bo shranjena tudi denarnica.</translation>
     </message>
     <message>
@@ -902,8 +902,8 @@
         <translation>Uporabi to podatkovno mapo:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -984,7 +984,7 @@
         <translation>Ko zaprete glavno okno programa, bo program tekel še naprej, okno pa bo zgolj minimirano. Program v tem primeru ustavite tako, da v meniju izberete ukaz Izhod.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting REPLACE_1_PROJNAME.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ensocoin.</source>
         <translation>Nastavitev jezika uporabniškega vmesnika programa. Nova nastavitev jezika bo uporabljena šele, ko boste znova zagnali program.</translation>
     </message>
     <message>
@@ -1012,11 +1012,11 @@
         <translation>&amp;Omrežje</translation>
     </message>
     <message>
-        <source>Automatically start REPLACE_1_PROJNAME after logging in to the system.</source>
+        <source>Automatically start Ensocoin after logging in to the system.</source>
         <translation>Ob uporabnikovi prijavi v sistem se bo program samodejno zagnal</translation>
     </message>
     <message>
-        <source>&amp;Start REPLACE_1_PROJNAME on system login</source>
+        <source>&amp;Start Ensocoin on system login</source>
         <translation>&amp;Zaženi program ob prijavi v sistem</translation>
     </message>
     <message>
@@ -1446,7 +1446,7 @@
         <translation>Trenutno število blokov</translation>
     </message>
     <message>
-        <source>Open the REPLACE_1_PROJNAME debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Ensocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Odpre razhroščevalni dnevnik debug.log, ki se nahaja v trenutni podatkovni mapi. Če je datoteka velika, lahko postopek traja nekaj sekund.</translation>
     </message>
     <message>
@@ -1550,8 +1550,8 @@
         <translation>Počisti konzolo</translation>
     </message>
     <message>
-        <source>Welcome to the REPLACE_1_PROJNAME RPC console.</source>
-        <translation>Dobrodošli v konzoli RPC programa REPLACE_1_PROJNAME.</translation>
+        <source>Welcome to the Ensocoin RPC console.</source>
+        <translation>Dobrodošli v konzoli RPC programa Ensocoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2124,7 +2124,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
+        <source>Ensocoin is shutting down...</source>
         <translation>Program se ustavlja ...</translation>
     </message>
     <message>
@@ -2274,12 +2274,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
-        <translation>REPLACE_1_PROJNAME razvijalci</translation>
+        <source>The Ensocoin developers</source>
+        <translation>Ensocoin razvijalci</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2812,8 +2812,8 @@
         <translation>To je preizkusna različica še neizdanega programa. Uporabljate jo na lastno odgovornost. Programa ne uporabljajte je za rudarjenje ali trgovske aplikacije.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>Na tem računalniku ni bilo mogoče vezati naslova %s. Odjemalec REPLACE_1_PROJNAME je verjetno že zagnan.</translation>
+        <source>Unable to bind to %s on this computer. Ensocoin is probably already running.</source>
+        <translation>Na tem računalniku ni bilo mogoče vezati naslova %s. Odjemalec Ensocoin je verjetno že zagnan.</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
@@ -2976,8 +2976,8 @@
         <translation>Veži dani naslov in sprejemaj povezave na JSON-RPC. Za naslove protokola IPv6 uporabite zapis [gostitelj]:vrata. To opcijo lahko navedete večkrat. (privzeto: veži vse omrežne vmesnike)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. REPLACE_1_PROJNAME is probably already running.</source>
-        <translation>Ne morem zakleniti podatkovne mape %s. REPLACE_1_PROJNAME je verjetno že zagnan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Ensocoin is probably already running.</source>
+        <translation>Ne morem zakleniti podatkovne mape %s. Ensocoin je verjetno že zagnan.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3020,8 +3020,8 @@
         <translation>Poveži se preko posredniškega strežnika SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The REPLACE_1_PROJNAME Developers</source>
-        <translation>Copyright (C) 2009-%i The REPLACE_1_PROJNAME Developers</translation>
+        <source>Copyright (C) 2009-%i The Ensocoin Developers</source>
+        <translation>Copyright (C) 2009-%i The Ensocoin Developers</translation>
     </message>
     <message>
         <source>Information</source>

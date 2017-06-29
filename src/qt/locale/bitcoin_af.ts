@@ -144,15 +144,15 @@
         <translation>Bevestig dat die beursie gekodifiseer is</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
-        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U REPLACE_4_PROJNAME&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U ENSOCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Is u seker dat u die beursie wil kodifiseer?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Bitcoin Kern gaan nou toemaak om die kodifikasie af te handel. Onthou dat die kodifikasie van u beursie nie altyd u munte kan beskerm teen diefstal deur kwaadwillige sagteware op u rekenaar nie.</translation>
     </message>
     <message>
@@ -258,7 +258,7 @@
         <translation>Oop &amp; URI...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
+        <source>Ensocoin client</source>
         <translation>Bitcoin Kern klient</translation>
     </message>
     <message>
@@ -298,7 +298,7 @@
         <translation>&amp;Ontvang</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
+        <source>Show information about Ensocoin</source>
         <translation>Vertoon inligting oor Bitcoin Kern</translation>
     </message>
     <message>
@@ -322,7 +322,7 @@
         <translation>&amp;Help</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Kern</translation>
     </message>
     <message>
@@ -330,11 +330,11 @@
         <translation>Versoek betalings (genereer QR-kodes en bitcoin: URI's)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>&amp;Omtrent Bitcoin Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
+        <source>Modify configuration options for Ensocoin</source>
         <translation>Verander konfigurasie-opsies vir Bitcoin Kern</translation>
     </message>
     <message>
@@ -369,7 +369,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Kern</translation>
     </message>
     <message>
@@ -380,7 +380,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Kern</translation>
     </message>
     </context>
@@ -444,7 +444,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Bitcoin Kern</translation>
     </message>
     </context>

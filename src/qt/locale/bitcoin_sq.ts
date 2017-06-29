@@ -246,11 +246,11 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Berthama Bitcoin</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>Rreth Berthames Bitkoin</translation>
     </message>
     <message>
@@ -385,7 +385,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Berthama Bitcoin</translation>
     </message>
     <message>
@@ -393,7 +393,7 @@
         <translation>versioni</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>Rreth Berthames Bitkoin</translation>
     </message>
     </context>
@@ -404,11 +404,11 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation>Miresevini ne Berthamen Bitcoin</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Berthama Bitcoin</translation>
     </message>
     <message>
@@ -624,7 +624,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Berthama Bitcoin</translation>
     </message>
     <message>

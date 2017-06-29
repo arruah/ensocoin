@@ -156,7 +156,7 @@
         <translation>تأیید رمزنگاری کیف پول</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>هشدار: اگر کیف پول خود را رمزنگاری کنید و گذرواژه را فراموش کنید، &lt;b&gt;تمام دارایی بیت‌کوین خود را از دست خواهید داد&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -164,7 +164,7 @@
         <translation>آیا مطمئن هستید که می‌خواهید کیف پول خود را رمزنگاری کنید؟</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>هسته بیت‌کوین هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کردن کیف پول‌تان نمی‌تواند به طور کامل بیت‌کوین‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که رایانه‌ی شما را آلوده می‌کنند، محافظت نماید.</translation>
     </message>
     <message>
@@ -342,7 +342,7 @@
         <translation>&amp;دریافت</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
+        <source>Show information about Ensocoin</source>
         <translation>نمایش اطلاعات در مورد بیت‌کوین</translation>
     </message>
     <message>
@@ -382,11 +382,11 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation> هسته Bitcoin </translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>درباره هسته ی بیت کوین</translation>
     </message>
     <message>
@@ -701,7 +701,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation> هسته Bitcoin </translation>
     </message>
     <message>
@@ -709,7 +709,7 @@
         <translation>نسخه</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>درباره هسته ی بیت کوین</translation>
     </message>
     <message>
@@ -732,11 +732,11 @@
         <translation>خوش‌آمدید</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation>به هسته بیت کوین خوش آمدید.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
         <translation>از آنجایی که این اولین اجرای برنامه است، شما می‌توانید مسیر ذخیرهٔ داده‌ها را انتخاب کنید.</translation>
     </message>
     <message>
@@ -748,7 +748,7 @@
         <translation>استفاده از یک مسیر سفارشی:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation> هسته Bitcoin </translation>
     </message>
     <message>
@@ -1072,7 +1072,7 @@
         <translation>پاکسازی کنسول</translation>
     </message>
     <message>
-        <source>Welcome to the REPLACE_1_PROJNAME RPC console.</source>
+        <source>Welcome to the Ensocoin RPC console.</source>
         <translation>به کنسول RPC هسته بیت کوین خوش آمدید.</translation>
     </message>
     <message>
@@ -1476,11 +1476,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation> هسته Bitcoin </translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
+        <source>The Ensocoin developers</source>
         <translation>توسعه‌دهندگان هسته بیت‌کوین</translation>
     </message>
     <message>

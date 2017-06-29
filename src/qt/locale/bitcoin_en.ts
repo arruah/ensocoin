@@ -201,8 +201,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -455,7 +455,7 @@
     </message>
     <message>
         <location line="+40"/>
-        <source>Show information about REPLACE_1_PROJNAME</source>
+        <source>Show information about Ensocoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -505,8 +505,8 @@
     </message>
     <message>
         <location line="-314"/>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation type="unfinished">REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation type="unfinished">Ensocoin</translation>
     </message>
     <message>
         <location line="+160"/>
@@ -515,7 +515,7 @@
     </message>
     <message>
         <location line="+38"/>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1087,8 +1087,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+36"/>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation type="unfinished">REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation type="unfinished">Ensocoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1103,7 +1103,7 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1166,7 +1166,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1191,8 +1191,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+86"/>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation type="unfinished">REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation type="unfinished">Ensocoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1299,7 +1299,7 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting REPLACE_1_PROJNAME.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ensocoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3113,8 +3113,8 @@
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+41"/>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation type="unfinished">REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation type="unfinished">Ensocoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4315,7 +4315,7 @@
     </message>
     <message>
         <location line="+16"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of REPLACE_1_PROJNAME</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ensocoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

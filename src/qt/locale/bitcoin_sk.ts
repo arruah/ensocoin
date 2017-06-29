@@ -160,7 +160,7 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BITCOINY&lt;/b&gt;!⏎</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Ensocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Jadro Bitcoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj, že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred krádežou bitcoinov pomocou škodlivého software.</translation>
     </message>
     <message>
@@ -306,8 +306,8 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
-        <translation>REPLACE_1_PROJNAME klient</translation>
+        <source>Ensocoin client</source>
+        <translation>Ensocoin klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Show information about REPLACE_1_PROJNAME</source>
-        <translation>Zobraziť informácie o REPLACE_1_PROJNAME</translation>
+        <source>Show information about Ensocoin</source>
+        <translation>Zobraziť informácie o Ensocoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -398,7 +398,7 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Jadro Bitcoin</translation>
     </message>
     <message>
@@ -406,11 +406,11 @@
         <translation>Vyžiadať platby (vygeneruje QR kódy a bitcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>O jadre Bitcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for REPLACE_1_PROJNAME</source>
+        <source>Modify configuration options for Ensocoin</source>
         <translation>Upraviť možnosti nastavenia pre Jadro Bitcoin</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
         <translation>Zobraziť pomocnú správu od Bitcoin Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
     </message>
     <message numerus="yes">
@@ -855,7 +855,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Jadro Bitcoin</translation>
     </message>
     <message>
@@ -867,7 +867,7 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>O jadre Bitcoin</translation>
     </message>
     <message>
@@ -918,15 +918,15 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to REPLACE_1_PROJNAME.</source>
+        <source>Welcome to Ensocoin.</source>
         <translation>Vitajte v jadre Bitcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where REPLACE_1_PROJNAME will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Ensocoin will store its data.</source>
         <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude Bitcoin Jadro ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Ensocoin will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Jadro Bitcoin stiahne zo siete a uloží kópiu Bitcoin blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
     </message>
     <message>
@@ -938,7 +938,7 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Jadro Bitcoin</translation>
     </message>
     <message>
@@ -1020,7 +1020,7 @@
         <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting REPLACE_1_PROJNAME.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ensocoin.</source>
         <translation>Tu sa dá nastaviť jazyk užívateľského rozhrania. Toto nastavenie bude účinné po reštartovaní Jadra Bitcoin.</translation>
     </message>
     <message>
@@ -1048,11 +1048,11 @@
         <translation>&amp;Sieť</translation>
     </message>
     <message>
-        <source>Automatically start REPLACE_1_PROJNAME after logging in to the system.</source>
+        <source>Automatically start Ensocoin after logging in to the system.</source>
         <translation>Automaticky spustiť Jadro Bitcoin po prihlásení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start REPLACE_1_PROJNAME on system login</source>
+        <source>&amp;Start Ensocoin on system login</source>
         <translation>&amp;Spustiť Bitcoin pri spustení systému správy okien</translation>
     </message>
     <message>
@@ -1518,7 +1518,7 @@
         <translation>Využitie pamäte</translation>
     </message>
     <message>
-        <source>Open the REPLACE_1_PROJNAME debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Ensocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otvoriť Bitcoin log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
     </message>
     <message>
@@ -1675,7 +1675,7 @@
         <translation>&amp;odblokovať uzol</translation>
     </message>
     <message>
-        <source>Welcome to the REPLACE_1_PROJNAME RPC console.</source>
+        <source>Welcome to the Ensocoin RPC console.</source>
         <translation>Vitajte v RPC konzole pre Jadro Bitcoin.</translation>
     </message>
     <message>
@@ -2257,7 +2257,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
+        <source>Ensocoin is shutting down...</source>
         <translation>Jadro Bitcoin sa ukončuje...</translation>
     </message>
     <message>
@@ -2399,11 +2399,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>Jadro Bitcoin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
+        <source>The Ensocoin developers</source>
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
@@ -2905,7 +2905,7 @@
         <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong REPLACE_1_PROJNAME will not work properly.</source>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Ensocoin will not work properly.</source>
         <translation>Skontrolujte správnosť nastavenia dátumu a času na vašom počítači! Ak je čas nesprávny Jadro Bitcoin nebude správne fungovať.</translation>
     </message>
     <message>
@@ -2957,7 +2957,7 @@
         <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu bitcoin ani obchodovanie.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. REPLACE_1_PROJNAME is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Ensocoin is probably already running.</source>
         <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Bitcoin Jadro je už pravdepodobne spustené.</translation>
     </message>
     <message>
@@ -3151,7 +3151,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. REPLACE_1_PROJNAME is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Ensocoin is probably already running.</source>
         <translation>Neviem uzamknúť data adresár %s. Jadro Bitcoin je pravdepodobne už spustené.</translation>
     </message>
     <message>
@@ -3235,11 +3235,11 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Pripojiť cez proxy server SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The REPLACE_1_PROJNAME Developers</source>
+        <source>Copyright (C) 2009-%i The Ensocoin Developers</source>
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of REPLACE_1_PROJNAME</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ensocoin</source>
         <translation>Chyba pri čítaní wallet.dat: Peňaženka vyžaduje vyššiu verziu Jadra Bitcoin</translation>
     </message>
     <message>
@@ -3255,7 +3255,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. REPLACE_1_PROJNAME is shutting down.</source>
+        <source>Initialization sanity check failed. Ensocoin is shutting down.</source>
         <translation>Inicializačná kontrola zlyhala. Jadro Bitcoin sa ukončuje.</translation>
     </message>
     <message>
@@ -3359,7 +3359,7 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart REPLACE_1_PROJNAME to complete</source>
+        <source>Wallet needed to be rewritten: restart Ensocoin to complete</source>
         <translation>Peňaženka musí byť prepísaná: pre dokončenie reštartujte Jadro Bitcoin</translation>
     </message>
     <message>

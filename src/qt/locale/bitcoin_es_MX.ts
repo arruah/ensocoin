@@ -148,8 +148,8 @@
         <translation>Confirmar la encriptación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
-        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS REPLACE_4_PROJNAME&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
+        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS ENSOCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -270,8 +270,8 @@
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME client</source>
-        <translation>cliente REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin client</source>
+        <translation>cliente Ensocoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -338,19 +338,19 @@
         <translation>Pestañas</translation>
     </message>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>nucleo Bitcoin</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
-        <translation>Acerca de REPLACE_1_PROJNAME</translation>
+        <source>&amp;About Ensocoin</source>
+        <translation>Acerca de Ensocoin</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>opciones de la &amp;Linea de comandos</translation>
     </message>
     <message>
-        <source>Show the REPLACE_1_PROJNAME help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Ensocoin help message to get a list with possible Bitcoin command-line options</source>
         <translation>Mostrar mensaje de ayuda del nucleo de Bitcoin para optener una lista con los posibles comandos  de Bitcoin</translation>
     </message>
     <message>
@@ -505,7 +505,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>nucleo Bitcoin</translation>
     </message>
     <message>
@@ -517,8 +517,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
-        <translation>Acerca de REPLACE_1_PROJNAME</translation>
+        <source>About Ensocoin</source>
+        <translation>Acerca de Ensocoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -536,7 +536,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
+        <source>Ensocoin</source>
         <translation>nucleo Bitcoin</translation>
     </message>
     </context>
@@ -818,7 +818,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>REPLACE_1_PROJNAME is shutting down...</source>
+        <source>Ensocoin is shutting down...</source>
         <translation>Apagando el nucleo de Bitcoin...</translation>
     </message>
     <message>
@@ -848,12 +848,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>REPLACE_1_PROJNAME</source>
-        <translation>REPLACE_1_PROJNAME</translation>
+        <source>Ensocoin</source>
+        <translation>Ensocoin</translation>
     </message>
     <message>
-        <source>The REPLACE_1_PROJNAME developers</source>
-        <translation>Los desarrolladores de REPLACE_1_PROJNAME</translation>
+        <source>The Ensocoin developers</source>
+        <translation>Los desarrolladores de Ensocoin</translation>
     </message>
     </context>
 <context>

@@ -75,7 +75,7 @@ bool AppInit(int argc, char* argv[])
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-h") ||  mapArgs.count("-help") || mapArgs.count("-version"))
     {
-        std::string strUsage = _("REPLACE_1_PROJNAME Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Ensocoin Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version"))
         {
@@ -84,7 +84,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  bitcoind [options]                     " + _("Start REPLACE_1_PROJNAME Daemon") + "\n";
+                  "  bitcoind [options]                     " + _("Start Ensocoin Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }

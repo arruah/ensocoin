@@ -92,7 +92,7 @@
         <translation>Одобрите шифровање новчаника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REPLACE_4_PROJNAME&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENSOCOINS&lt;/b&gt;!</source>
         <translation>Упозорење: Ако се ваш новчаник шифрује а потом изгубите лозинкзу, ви ћете &lt;b&gt;ИЗГУБИТИ СВЕ BITCOIN-Е&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -222,7 +222,7 @@
         <translation>Трака са картицама</translation>
     </message>
     <message>
-        <source>&amp;About REPLACE_1_PROJNAME</source>
+        <source>&amp;About Ensocoin</source>
         <translation>O Bitcoin Coru</translation>
     </message>
     <message>
@@ -321,7 +321,7 @@
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About REPLACE_1_PROJNAME</source>
+        <source>About Ensocoin</source>
         <translation>O Bitcoin Coru</translation>
     </message>
     <message>

@@ -1,4 +1,4 @@
-// REPLACE_4_COPYRIGHT
+// Copyright (c) 2016 Bitcoin Unlimited Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

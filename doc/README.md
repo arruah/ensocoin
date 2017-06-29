@@ -1,9 +1,9 @@
-REPLACE_1_PROJNAME_MD 0.12.1b
+Ensocoin 0.12.1b
 =========================
 
 Setup
 ---------------------
-[REPLACE_1_PROJNAME_MD](http://www.REPLACE_1_LINK) is a fork of the original Bitcoin client and it builds the backbone of the network.  It downloads and stores the entire history of Bitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[Ensocoin](http://www.ensocoin.org) is a fork of the original Bitcoin client and it builds the backbone of the network.  It downloads and stores the entire history of Bitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 - [Getting the most out of Xtreme thinblocks](bu-xthin.md)
 - [Setting up an Xpedited Relay Network](bu-xpedited-forwarding.md)
