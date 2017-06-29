@@ -19,7 +19,7 @@ sudo apt-get install bitcoind bitcoin-qt (# on headlesse server just install bit
 If you are moving from another Bitcoin compatible implementations (Core, Classic, XT) to BU, make sure to follow this plan before moving:
 
 - backup your wallet (if any)
-- make a backup of the `~/.bitcoin` dir
+- make a backup of the `~/.ensocoin` dir
 - if you have installed Core via apt using the ppa bitcoin core repo:
    - `sudo apt-get remove bitcoin*`
    - `sudo rm /etc/apt/sources.list.d/bitcoin-*.*`

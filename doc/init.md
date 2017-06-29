@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bitcoind`  
-Configuration file:  `~/Library/Application Support/Bitcoin/bitcoin.conf`  
-Data directory:      `~/Library/Application Support/Bitcoin`
-Lock file:           `~/Library/Application Support/Bitcoin/.lock`
+Configuration file:  `~/Library/Application Support/Ensocoin/bitcoin.conf`
+Data directory:      `~/Library/Application Support/Ensocoin`
+Lock file:           `~/Library/Application Support/Ensocoin/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
