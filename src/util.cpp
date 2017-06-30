@@ -305,9 +305,9 @@ int LogPrintStr(const std::string &str)
 
         // buffer if we haven't opened the log yet
         if (fileout == NULL) {
-            assert(vMsgsBeforeOpenLog);
-            ret = strTimestamped.length();
-            vMsgsBeforeOpenLog->push_back(strTimestamped);
+            //assert(vMsgsBeforeOpenLog);
+            //ret = strTimestamped.length();
+            //vMsgsBeforeOpenLog->push_back(strTimestamped);
         }
         else
         {
