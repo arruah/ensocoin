@@ -7,7 +7,7 @@ various bugfixes and updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://lab.axioma.lv/axioma/BitcoinUnlimited/issues>
+  <https://lab.axioma.lv/axioma/ensocoin/issues>
 
 Upgrading and downgrading
 =========================

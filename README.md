@@ -1,7 +1,5 @@
 [Website](https://www.ensocoin.org)  | [Download](https://www.ensocoin.org/download) | [Setup](doc/README.md)  |  [Xthin](doc/bu-xthin.md)  |  [Xpedited](doc/bu-xpedited-forwarding.md)  |   [Miner](doc/miner.md)
 
-[![Build Status](https://travis-ci.org/BitcoinUnlimited/BitcoinUnlimited.svg?branch=release)](https://travis-ci.org/BitcoinUnlimited/BitcoinUnlimited)
-
 What is Bitcoin?
 =====================================
 
@@ -58,7 +56,7 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 mkdir -p ~/src
 cd ~/src
-git clone https://lab.axioma.lv/axioma/BitcoinUnlimited.git bu-src
+git clone https://lab.axioma.lv/axioma/ensocoin.git bu-src
 cd bu-src
 ./autogen.sh
 ./configure

@@ -7,7 +7,7 @@ Ensocoin version 1.0.0 is now available from:
 
 Please report bugs using the issue tracker at github:
 
-  <https://lab.axioma.lv/axioma/BitcoinUnlimited/issues>
+  <https://lab.axioma.lv/axioma/ensocoin/issues>
 
 The third official BU client release reflects our opinion that Bitcoin full-node
 software has reached a milestone of functionality, stability and scalability.
@@ -100,7 +100,7 @@ will be network-wide for many years, if ever.
 Attention: It is recommended to use the defaults.
 
 Further information:
-- [Github Repository PR#164](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/164)
+- [Github Repository PR#164](https://lab.axioma.lv/axioma/ensocoin/pull/164)
 - [Discussion and Vote on BUIP40](https://bitco.in/forum/threads/buip040-passed-emergent-consensus-parameters-and-defaults-for-large-1mb-blocks.1643/)
 
 Removal of the 32 MB message limit
@@ -148,7 +148,7 @@ approaches keeps BU connection slots available for useful nodes and also for the
 bit-nodes crawlers that want to find the node counts.
 
 Further information:
-- [GitHub #PR 62](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/62)
+- [GitHub #PR 62](https://lab.axioma.lv/axioma/ensocoin/pull/62)
 
 Request Manager extensions
 --------------------------
@@ -172,8 +172,8 @@ Initial Blockchain Download (IBD). It eliminates slowdowns and hung connections
 which occasionally happen when the request for blocks receives a slow response.
 
 Further information:
-- [GitHub PR #79](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/79)
-- [GitHub PR #229](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/229)
+- [GitHub PR #79](https://lab.axioma.lv/axioma/ensocoin/pull/79)
+- [GitHub PR #229](https://lab.axioma.lv/axioma/ensocoin/pull/229)
 
 Xthin block propagation optimizations
 -------------------------------------
@@ -186,11 +186,11 @@ and minimal latency in block propagation.
 
 
 Further information:
-- [GitHub PR #131](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/131)
-- [GitHub PR #173](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/173)
-- [GitHub PR #174](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/174)
-- [GitHub PR #176](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/176)
-- [GitHub PR #191](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/191)
+- [GitHub PR #131](https://lab.axioma.lv/axioma/ensocoin/pull/131)
+- [GitHub PR #173](https://lab.axioma.lv/axioma/ensocoin/pull/173)
+- [GitHub PR #174](https://lab.axioma.lv/axioma/ensocoin/pull/174)
+- [GitHub PR #176](https://lab.axioma.lv/axioma/ensocoin/pull/176)
+- [GitHub PR #191](https://lab.axioma.lv/axioma/ensocoin/pull/191)
 
 Mempool Management
 ==================
@@ -216,8 +216,8 @@ after 72 hours. This not only improves node operation, but the synchronization
 of mempool data improves Xthin efficiency.
 
 Further information:
-- [GitHub PR #42](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/42)
-- [GitHub PR #100](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/100)
+- [GitHub PR #42](https://lab.axioma.lv/axioma/ensocoin/pull/42)
+- [GitHub PR #100](https://lab.axioma.lv/axioma/ensocoin/pull/100)
 
 Configuration
 =============
@@ -276,7 +276,7 @@ destruction order and eliminates this bug. This is especially helpful for
 running bitcoind test suite.
 
 Further information:
-- [GitHub PR #67](https://lab.axioma.lv/axioma/BitcoinUnlimited/pull/67)
+- [GitHub PR #67](https://lab.axioma.lv/axioma/ensocoin/pull/67)
 
 Lock order checking in debug mode
 ---------------------------------

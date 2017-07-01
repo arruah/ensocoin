@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: BitcoinUnlimited
+Upstream-Name: Ensocoin
 Upstream-Contact: Andrew Stone <g.andrew.stone@gmail.com>
  irc://#bitcoin@freenode.net
 Source: https://github.com/bitcoin/bitcoin

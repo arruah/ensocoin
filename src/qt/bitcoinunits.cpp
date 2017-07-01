@@ -52,7 +52,7 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Bitcoins");
+    case BTC: return QString("Ensocoins");
     case mBTC: return QString("Milli-Ensocoins (1 / 1" THIN_SP_UTF8 "000)");
     case uBTC: return QString("Micro-Ensocoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");

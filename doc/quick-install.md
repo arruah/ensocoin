@@ -72,7 +72,7 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev
 ```sh
 mkdir -p ~/src
 cd ~/src
-git clone https://lab.axioma.lv/axioma/BitcoinUnlimited.git bu-src
+git clone https://lab.axioma.lv/axioma/ensocoin.git bu-src
 cd bu-src
 git checkout <desired_branch/tag>   # e.g. git checkout 0.12.1c
 ./autogen.sh

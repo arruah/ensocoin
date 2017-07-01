@@ -1,4 +1,4 @@
-Source: bitcoinunlimited
+Source: ensocoin
 Section: utils
 Priority: optional
 Maintainer: Andrew Stone <g.andrew.stone@gmail.com>
@@ -25,8 +25,8 @@ Build-Depends: debhelper,
  python
 Standards-Version: 3.9.2
 Homepage: https://www.ensocoin.org/
-Vcs-Git: git://lab.axioma.lv/axioma/BitcoinUnlimited.git
-Vcs-Browser: https://lab.axioma.lv/axioma/BitcoinUnlimited
+Vcs-Git: git://lab.axioma.lv/axioma/ensocoin.git
+Vcs-Browser: https://lab.axioma.lv/axioma/ensocoin
 
 Package: bitcoind
 Architecture: any

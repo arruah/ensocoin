@@ -48,10 +48,10 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "BitcoinUnlimited"
+#define QAPP_ORG_NAME "Ensocoin"
 #define QAPP_ORG_DOMAIN "ensocoin.org"
-#define QAPP_APP_NAME_DEFAULT "Bitcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Bitcoin-Qt-testnet"
-#define QAPP_APP_NAME_NOLNET "Bitcoin-Qt-nolimit"   // BU
+#define QAPP_APP_NAME_DEFAULT "Ensocoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Ensocoin-Qt-testnet"
+#define QAPP_APP_NAME_NOLNET "Ensocoin-Qt-nolimit"   // BU
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

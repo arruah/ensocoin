@@ -250,7 +250,7 @@ If you want to build statically linked binaries so that you could compile in one
 and deploy in same parch/platform boxes without the need of installing all the dependencies
 just follow these steps:
 
-    git clone https://lab.axioma.lv/axioma/BitcoinUnlimited.git BU
+    git clone https://lab.axioma.lv/axioma/ensocoin.git BU
     cd BU/depends
     make HOST=x86_64-pc-linux-gnu NO_QT=1 -j4
     cd ..

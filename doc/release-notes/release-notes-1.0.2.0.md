@@ -7,7 +7,7 @@ Ensocoin version 1.0.2.0 is now available from:
 
 Please report bugs using the issue tracker at github:
 
-  <https://lab.axioma.lv/axioma/BitcoinUnlimited/issues>
+  <https://lab.axioma.lv/axioma/ensocoin/issues>
 
 This is an hotfix release.
 
