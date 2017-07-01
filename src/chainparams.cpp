@@ -4,13 +4,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#include "arith_uint256.h"
 #include "chainparams.h"
 #include "consensus/merkle.h"
 
 #include "tinyformat.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "pow.h"
 
 #include <assert.h>
 
@@ -81,47 +81,45 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
-static void MineGenesisBlock(CBlock genesis, Consensus::Params consensus)
+static void MineGenesisBlock(CBlock genesis, Consensus::Params consensus, std::string netID)
 {
     // Create genesis block
     if (true && genesis.GetHash() != consensus.hashGenesisBlock) {
-        //LogPrintf("recalculating params for testnet.\n");
-        //LogPrintf("old testnet genesis nonce: %u\n", genesis.nNonce);
-        //LogPrintf("old testnet genesis hash:  %s\n", consensus.hashGenesisBlock.ToString().c_str());
-
+        std::cout << "recalculating params for " + netID + "net." << std::endl;
         std::cout << "old testnet genesis nonce: " << genesis.nNonce << std::endl;
         std::cout << "old testnet genesis hash: " << consensus.hashGenesisBlock.ToString().c_str() << std::endl;
         std::cout << "genesis.GetHash(): " << genesis.GetHash().ToString().c_str() << std::endl;
 
-        std::cout << "test for condition: " << (consensus.powLimit < genesis.GetHash()) << std::endl;
+        std::cout << "Mining of genesis block started" << std::flush;
 
-        // find correct nonce value for the block
-        /*for (genesis.nNonce = 1; consensus.powLimit < genesis.GetHash(); genesis.nNonce++) {
-            if (!genesis.nNonce) {
-                // Nonce wrapped, incrementing time
-                genesis.nTime++;
-            }
-        }*/
+        bool fNegative;
+        bool fOverflow;
+        arith_uint256 bnTarget;
+
+        bnTarget.SetCompact(genesis.nBits, &fNegative, &fOverflow);
+        // Check range
+        if (fNegative || bnTarget == 0 || fOverflow || bnTarget > UintToArith256(consensus.powLimit)) {
+            std::cout << std::endl << "CheckProofOfWork(): nBits below minimum work" << std::endl;
+            return;
+        }
+
         genesis.nNonce = 0;
-        uint32_t tmp = 0;
-        while (!CheckProofOfWork(genesis.GetHash(), genesis.nBits, consensus)) {
+        while (UintToArith256(genesis.GetHash()) > bnTarget) {
             ++genesis.nNonce;
             if (!genesis.nNonce) {
                 // Nonce wrapped, incrementing time
                 genesis.nTime++;
             }
 
-            if ((genesis.nNonce >> 14) != tmp) {
-                tmp = genesis.nNonce >> 14;
-                std::cout << "Nonce " << genesis.nNonce << " hash " << genesis.GetHash().ToString().c_str() << std::endl;
+            if (!(genesis.nNonce & 0xFFFF)) {
+                std::cout << "\r" << "Nonce " << genesis.nNonce << " hash " << genesis.GetHash().ToString().c_str() << std::flush;
             }
         }
-        //LogPrintf("new testnet genesis merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        //LogPrintf("new testnet genesis nonce: %u\n", genesis.nNonce);
-        //LogPrintf("new testnet genesis hash: %s\n", genesis.GetHash().ToString().c_str());
 
+        std::cout << std::endl;
         std::cout << "new testnet genesis merkle root: " << genesis.hashMerkleRoot.ToString().c_str() << std::endl;
         std::cout << "new testnet genesis nonce: " << genesis.nNonce << std::endl;
+        std::cout << "new testnet genesis nTime: " << genesis.nTime << std::endl;
         std::cout << "new testnet genesis hash: " << genesis.GetHash().ToString().c_str() << std::endl;
         std::cout << "generated with difficulty: " << consensus.powLimit.ToString().c_str() << std::endl;
     }
@@ -169,30 +167,33 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xf9;
-        pchMessageStart[1] = 0xbe;
-        pchMessageStart[2] = 0xb4;
-        pchMessageStart[3] = 0xd9;
-        vAlertPubKey = ParseHex("04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284");
+        pchMessageStart[0] = 0xd5;
+        pchMessageStart[1] = 0x28;
+        pchMessageStart[2] = 0x48;
+        pchMessageStart[3] = 0x60;
+        vAlertPubKey = ParseHex("04edb7cf11014f48acb50f36b665fef69553459b557ec0bf9967189881e63575fbd86003809283c7f246c04d8252555062b33a15359c1267303cd3f93fc8c7122e");
         nDefaultPort = 7993;
         nMaxTipAge = 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1231006505, 2083236893, 0x1d00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1498905646, 2848149976, 0x1d00ffff, 1, 50 * COIN);
+
+        // MineGenesisBlock(genesis, consensus, strNetworkID);
+
         consensus.hashGenesisBlock = genesis.GetHash();
         // TODO uncomment
-        //assert(consensus.hashGenesisBlock == uint256S("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"));
-        //assert(genesis.hashMerkleRoot == uint256S("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000000cb462417c7792c6cdf0d59cd35f484e5e4dbd6a427a57e4ca98f40ac"));
+        assert(genesis.hashMerkleRoot == uint256S("0xeceb7bba351aaf5286a52be41cdefd2ab843fa9fdcb95a2e20d697ed85ae6477"));
 
         // BITCOINUNLIMITED START
         vSeeds.push_back(CDNSSeedData("seed.ensocoin.org", "seed.ensocoin.org"));
         // BITCOINUNLIMITED END
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,33);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,8);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,172);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x21)(0x35)(0x3F).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x5E)(0xCD)(0x9A).convert_to_container<std::vector<unsigned char> >();
 
         // BITCOINUNLIMITED START
         vFixedSeeds = std::vector<SeedSpec6>();
@@ -206,8 +207,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x001")),
-            0, // * UNIX timestamp of last checkpoint block
+            ( 0, uint256S("0x00000000cb462417c7792c6cdf0d59cd35f484e5e4dbd6a427a57e4ca98f40ac")),
+            1498905646, // * UNIX timestamp of last checkpoint block
             0,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0     // * estimated number of transactions per day after checkpoint
@@ -334,13 +335,13 @@ public:
         nPruneAfterHeight = 1000;
 
         // args: nTime, nNonce, nBits, nVersion, genesisReward
-        genesis = CreateGenesisBlock(1498734234, 634178568, 0x1d00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1498897696, 3986331535, 0x1d00ffff, 1, 50 * COIN);
 
-        MineGenesisBlock(genesis, consensus);
+        // MineGenesisBlock(genesis, consensus, strNetworkID);
 
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943"));
-        assert(genesis.hashMerkleRoot == uint256S("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000000e04981426a5e920aa8f71740cc473b54d470266d348109cf1939f203"));
+        assert(genesis.hashMerkleRoot == uint256S("0xeceb7bba351aaf5286a52be41cdefd2ab843fa9fdcb95a2e20d697ed85ae6477"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -369,8 +370,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("001")),
-            0,
+            ( 0, uint256S("00000000e04981426a5e920aa8f71740cc473b54d470266d348109cf1939f203")),
+            1498897696,
             0,
             0
         };

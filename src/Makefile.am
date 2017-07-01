@@ -277,7 +277,6 @@ libbitcoin_common_a_SOURCES = \
   amount.cpp \
   arith_uint256.cpp \
   base58.cpp \
-  chain.cpp \
   chainparams.cpp \
   coins.cpp \
   compressor.cpp \
@@ -288,7 +287,6 @@ libbitcoin_common_a_SOURCES = \
   key.cpp \
   keystore.cpp \
   netbase.cpp \
-  pow.cpp \
   primitives/block.cpp \
   primitives/transaction.cpp \
   protocol.cpp \
