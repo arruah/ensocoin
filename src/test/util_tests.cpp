@@ -69,7 +69,7 @@ BOOST_AUTO_TEST_CASE(util_ParseHex)
     std::vector<unsigned char> result;
     std::vector<unsigned char> expected(ParseHex_expected, ParseHex_expected + sizeof(ParseHex_expected));
     // Basic test vector
-    result = ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f");
+    result = ParseHex("04c075cf0d0efdf24000f3b864c4a2c9c8477a590d0006c07f4f2d1c793318710092daf3764073e9c27fc0f6cb620cd45139f5c614218e560d4ab22ac68a998c96");
     BOOST_CHECK_EQUAL_COLLECTIONS(result.begin(), result.end(), expected.begin(), expected.end());
 
     // Spaces between bytes must be supported
@@ -85,11 +85,11 @@ BOOST_AUTO_TEST_CASE(util_HexStr)
 {
     BOOST_CHECK_EQUAL(
         HexStr(ParseHex_expected, ParseHex_expected + sizeof(ParseHex_expected)),
-        "04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f");
+        "04c075cf0d0efdf24000f3b864c4a2c9c8477a590d0006c07f4f2d1c793318710092daf3764073e9c27fc0f6cb620cd45139f5c614218e560d4ab22ac68a998c96");
 
     BOOST_CHECK_EQUAL(
         HexStr(ParseHex_expected, ParseHex_expected + 5, true),
-        "04 67 8a fd b0");
+        "04 c0 75 cf 0d");
 
     BOOST_CHECK_EQUAL(
         HexStr(ParseHex_expected, ParseHex_expected, true),
@@ -99,7 +99,7 @@ BOOST_AUTO_TEST_CASE(util_HexStr)
 
     BOOST_CHECK_EQUAL(
         HexStr(ParseHex_vec, true),
-        "04 67 8a fd b0");
+        "04 c0 75 cf 0d");
 }
 
 
