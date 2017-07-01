@@ -117,10 +117,10 @@ static void MineGenesisBlock(CBlock genesis, Consensus::Params consensus, std::s
         }
 
         std::cout << std::endl;
-        std::cout << "new testnet genesis merkle root: " << genesis.hashMerkleRoot.ToString().c_str() << std::endl;
-        std::cout << "new testnet genesis nonce: " << genesis.nNonce << std::endl;
-        std::cout << "new testnet genesis nTime: " << genesis.nTime << std::endl;
-        std::cout << "new testnet genesis hash: " << genesis.GetHash().ToString().c_str() << std::endl;
+        std::cout << "new " + netID + "net genesis merkle root: " << genesis.hashMerkleRoot.ToString().c_str() << std::endl;
+        std::cout << "new " + netID + "net genesis nonce: " << genesis.nNonce << std::endl;
+        std::cout << "new " + netID + "net genesis nTime: " << genesis.nTime << std::endl;
+        std::cout << "new " + netID + "net genesis hash: " << genesis.GetHash().ToString().c_str() << std::endl;
         std::cout << "generated with difficulty: " << consensus.powLimit.ToString().c_str() << std::endl;
     }
 }
