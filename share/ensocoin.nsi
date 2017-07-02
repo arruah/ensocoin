@@ -84,6 +84,9 @@ Section -Main SEC0000
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
+    SetOutPath $AppData\Ensocoin
+    File ${PROJROOT}/share/ensocoin/ensocoin.conf
+
     # Remove old wxwidgets-based-bitcoin executable and locales:
     Delete /REBOOTOK $INSTDIR\bitcoin.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
