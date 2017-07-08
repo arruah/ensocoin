@@ -205,6 +205,8 @@ public:
         fMineBlocksOnDemand = false;
         fTestnetToBeDeprecatedFieldRPC = false;
 
+        std::cout<<"0x00000008be456193a18045e3815ec5212e3562d658b1a39a61f92981979f4eea"<<std::endl;
+
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             ( 0, uint256S("0x00000008be456193a18045e3815ec5212e3562d658b1a39a61f92981979f4eea")),
