@@ -76,7 +76,7 @@ static CBlock CreateGenesisBlock(const  CScript& genesisInputScript, const CScri
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "The Times 8/Jul/2017: Donald Trump promises UK trade deal after Brexit";
+    const char* pszTimestamp = "The Times 10/Jul/2017: Russia is causing mayhem in cyberspace";
     const CScript genesisOutputScript = CScript() << ParseHex("04c075cf0d0efdf24000f3b864c4a2c9c8477a590d0006c07f4f2d1c793318710092daf3764073e9c27fc0f6cb620cd45139f5c614218e560d4ab22ac68a998c96") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -146,7 +146,7 @@ public:
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 227931;
         consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
-        consensus.powLimit = uint256S("000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 10 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
@@ -176,14 +176,14 @@ public:
         nMaxTipAge = 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1499522259, 267210652, 0x1d0fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1499705169, 252602136, 0x1d00ffff, 1, 50 * COIN);
 
         // MineGenesisBlock(genesis, consensus, strNetworkID);
 
         consensus.hashGenesisBlock = genesis.GetHash();
         // TODO uncomment
-        assert(consensus.hashGenesisBlock == uint256S("0x00000008be456193a18045e3815ec5212e3562d658b1a39a61f92981979f4eea"));
-        assert(genesis.hashMerkleRoot == uint256S("0xf0f9937487899a3e90a1795e6ec1b5174f7bcde573357a66b68cde42c2ef7486"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000009e7bf02897e37a5d28892df718b647515da3a98d328dc47130feb5e9"));
+        assert(genesis.hashMerkleRoot == uint256S("0x451bc8fa1ab6b08e6d352201c3928f65c8441367edc86561e96b2045ca260f4d"));
 
         // BITCOINUNLIMITED START
         // vSeeds.push_back(CDNSSeedData("seed.ensocoin.org", "seed.ensocoin.org"));
@@ -205,12 +205,12 @@ public:
         fMineBlocksOnDemand = false;
         fTestnetToBeDeprecatedFieldRPC = false;
 
-        std::cout<<"0x00000008be456193a18045e3815ec5212e3562d658b1a39a61f92981979f4eea"<<std::endl;
+        std::cout<<"0x000000009e7bf02897e37a5d28892df718b647515da3a98d328dc47130feb5e9"<<std::endl;
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x00000008be456193a18045e3815ec5212e3562d658b1a39a61f92981979f4eea")),
-            1499522259, // * UNIX timestamp of last checkpoint block
+            ( 0, uint256S("0x000000009e7bf02897e37a5d28892df718b647515da3a98d328dc47130feb5e9")),
+            1499705169, // * UNIX timestamp of last checkpoint block
             0,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0     // * estimated number of transactions per day after checkpoint
@@ -276,7 +276,7 @@ public:
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
         // BITCOINUNLIMITED START
-        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
+        vFixedSeeds = std::vector<SeedSpec6>();
         // BITCOINUNLIMITED END
 
         fMiningRequiresPeers = true;
@@ -310,8 +310,7 @@ public:
         consensus.nMajorityWindow = 100;
         consensus.BIP34Height = 21111;
         consensus.BIP34Hash = uint256S("0x0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8");
-        //consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.powLimit = uint256S("ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 10 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
@@ -337,13 +336,13 @@ public:
         nPruneAfterHeight = 1000;
 
         // args: nTime, nNonce, nBits, nVersion, genesisReward
-        genesis = CreateGenesisBlock(1499522230, 3945098887, 0x1d0fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1499705178, 764180855, 0x1d00ffff, 1, 50 * COIN);
 
         // MineGenesisBlock(genesis, consensus, strNetworkID);
 
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000006d793216843f0272004f3a494ebe0831f74fb6dc2cb9b174d8c50a704"));
-        assert(genesis.hashMerkleRoot == uint256S("0xf0f9937487899a3e90a1795e6ec1b5174f7bcde573357a66b68cde42c2ef7486"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000001a4fd32ca119bb3acfc2c02478a16f799ef51828adc620ddefffe151"));
+        assert(genesis.hashMerkleRoot == uint256S("0x451bc8fa1ab6b08e6d352201c3928f65c8441367edc86561e96b2045ca260f4d"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -372,8 +371,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x00000006d793216843f0272004f3a494ebe0831f74fb6dc2cb9b174d8c50a704")),
-            1499522230,
+            ( 0, uint256S("0x000000001a4fd32ca119bb3acfc2c02478a16f799ef51828adc620ddefffe151")),
+            1499705178,
             0,
             0
         };
