@@ -1,5 +1,5 @@
 ---
-name: "BitcoinUnlimited-win-1.0"
+name: "Ensocoin-win-1.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -21,10 +21,11 @@ packages:
 - "zip"
 - "ca-certificates"
 - "python"
+- "libfile-rename-perl"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/gandrewstone/BitcoinUnlimited.git"
-  "dir": "bitcoin"
+- "url": "https://github.com/3mg/ensocoin"
+  "dir": "ensocoin"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -92,7 +93,7 @@ script: |
 
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd bitcoin
+  cd ensocoin
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do
@@ -103,14 +104,14 @@ script: |
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo bitcoinUnlimited-*.tar.gz`
+  SOURCEDIST=`echo ensocoin-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find bitcoin* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+  find ensocoin* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
   mkdir -p $OUTDIR/src
   cp ../$SOURCEDIST $OUTDIR/src
   popd
@@ -128,14 +129,17 @@ script: |
     ./configure --prefix=${BASEPREFIX}/${i} --bindir=${INSTALLPATH}/bin --includedir=${INSTALLPATH}/include --libdir=${INSTALLPATH}/lib --disable-ccache --disable-maintainer-mode --disable-dependency-tracking ${CONFIGFLAGS}
     make ${MAKEOPTS}
     make ${MAKEOPTS} -C src check-security
+    rename -f 's/bitcoin/ensocoin/' ./src/*.exe
+    rename -f 's/bitcoin/ensocoin/' ./src/qt/*.exe
     make deploy
     make install-strip
-    cp -f bitcoin-*setup*.exe $OUTDIR/
+    cp -f ensocoin-*setup*.exe $OUTDIR/
     cd installed
     mv ${DISTNAME}/bin/*.dll ${DISTNAME}/lib/
     find . -name "lib*.la" -delete
     find . -name "lib*.a" -delete
     rm -rf ${DISTNAME}/lib/pkgconfig
+    rename -f 's/bitcoin/ensocoin/' ${DISTNAME}/bin/*.exe
     find ${DISTNAME} -type f | sort | zip -X@ ${OUTDIR}/${DISTNAME}-${i}.zip
     cd ../..
   done

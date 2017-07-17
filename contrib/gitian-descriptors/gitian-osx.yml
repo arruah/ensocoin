@@ -1,5 +1,5 @@
 ---
-name: "BitcoinUnlimited-osx-1.0"
+name: "Ensocoin-osx-1.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -21,10 +21,11 @@ packages:
 - "libbz2-dev"
 - "ca-certificates"
 - "python"
+- "libfile-rename-perl"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://lab.axioma.lv/axioma/ensocoin.git"
-  "dir": "bitcoin"
+- "url": "https://github.com/3mg/ensocoin"
+  "dir": "ensocoin"
 files:
 - "MacOSX10.9.sdk.tar.gz"
 script: |
@@ -71,7 +72,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd bitcoin
+  cd ensocoin
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
@@ -86,14 +87,14 @@ script: |
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo bitcoinUnlimited-*.tar.gz`
+  SOURCEDIST=`echo ensocoin-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find bitcoin* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+  find ensocoin* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
   popd
 
   ORIGPATH="$PATH"
@@ -108,6 +109,9 @@ script: |
 
     ./configure --prefix=${BASEPREFIX}/${i} --bindir=${INSTALLPATH}/bin --includedir=${INSTALLPATH}/include --libdir=${INSTALLPATH}/lib --disable-ccache --disable-maintainer-mode --disable-dependency-tracking ${CONFIGFLAGS}
     make ${MAKEOPTS}
+    mv src/bitcoin-cli src/ensocoin-cli
+    mv src/bitcoin-qt src/ensocoin-qt
+    mv src/bitcoind src/ensocoind
     make install-strip
 
     make deploydir
@@ -123,7 +127,7 @@ script: |
     popd
 
     make deploy
-    ${WRAP_DIR}/dmg dmg Bitcoin-Unlimited.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg Ensocoin.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
 
     cd installed
     find . -name "lib*.la" -delete

@@ -78,6 +78,8 @@ Makefile.am.user
 Makefile
 bitcoin-qt
 Bitcoin-Qt.app
+ensocoin-qt
+Ensocoin-Qt.app
 
 # Unit-tests
 Makefile.test
