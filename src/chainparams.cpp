@@ -183,7 +183,7 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         // TODO uncomment
 
-        std::cout<<consensus.hashGenesisBlock.ToString().c_str()<<std::endl<<genesis.hashMerkleRoot.ToString().c_str()<<std::endl;
+        std::cout<<consensus.hashGenesisBlock.ToString().c_str()<<std::endl;
 
         assert(consensus.hashGenesisBlock == uint256S("0x000000000f0dfaf954310a57ed8efb3011c54e5d6dbf96453e7bed26e0f001d9"));
         assert(genesis.hashMerkleRoot == uint256S("0x3c8ee463b1450eba7aeb1dec0053fefc2c8add817f0571e81342c69a877e8589"));
@@ -207,8 +207,6 @@ public:
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
         fTestnetToBeDeprecatedFieldRPC = false;
-
-        std::cout<<"0x000000009e7bf02897e37a5d28892df718b647515da3a98d328dc47130feb5e9"<<std::endl;
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of

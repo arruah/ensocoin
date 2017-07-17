@@ -1,5 +1,5 @@
 ---
-name: "BitcoinUnlimited-win-1.0"
+name: "Ensocoin-win-1.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -23,8 +23,8 @@ packages:
 - "python"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/gandrewstone/BitcoinUnlimited.git"
-  "dir": "bitcoin"
+- "url": "https://github.com/arruah/ensocoin"
+  "dir": "ensocoin"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -92,7 +92,7 @@ script: |
 
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd bitcoin
+  cd ensocoin
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do
@@ -103,7 +103,7 @@ script: |
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo bitcoinUnlimited-*.tar.gz`
+  SOURCEDIST=`echo ensocoin-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order

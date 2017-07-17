@@ -1,5 +1,5 @@
 ---
-name: "BitcoinUnlimited-linux-1.0"
+name: "Ensocoin-linux-1.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -22,8 +22,8 @@ packages:
 - "python"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://lab.axioma.lv/axioma/ensocoin.git"
-  "dir": "bitcoin"
+- "url": "https://github.com/arruah/ensocoin"
+  "dir": "ensocoin"
 files: []
 script: |
 
@@ -109,7 +109,7 @@ script: |
   chmod +x ${WRAP_DIR}/${prog}
   done
 
-  cd bitcoin
+  cd ensocoin
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do
@@ -131,7 +131,7 @@ script: |
   ./autogen.sh
   CONFIG_SITE=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`/share/config.site ./configure --prefix=/
   make dist
-  SOURCEDIST=`echo bitcoinUnlimited-*.tar.gz`
+  SOURCEDIST=`echo ensocoin-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
   # Correct tar file order
   mkdir -p temp
