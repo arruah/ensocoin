@@ -24,7 +24,7 @@ packages:
 - "libfile-rename-perl"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/3mg/ensocoin"
+- "url": "https://github.com/arruah/ensocoin"
   "dir": "ensocoin"
 files: []
 script: |

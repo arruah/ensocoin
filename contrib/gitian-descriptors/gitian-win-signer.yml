@@ -9,7 +9,7 @@ packages:
 - "autoconf"
 reference_datetime: "2016-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/3mg/ensocoin-detached-sigs"
+- "url": "https://github.com/axiomadev/ensocoin-detached-sigs"
   "dir": "signature"
 files:
 - "osslsigncode-1.7.1.tar.gz"
